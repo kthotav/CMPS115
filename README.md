@@ -4,4 +4,3 @@ Allen Liou
 Justin Barros - jbarros@ucsc.edu
 Oscar P
 Sterling Salvaterra
-Hi
