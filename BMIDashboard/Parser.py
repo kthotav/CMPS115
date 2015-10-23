@@ -46,7 +46,7 @@ def parseESOKeys(filepath):
             else: key += char
         tsi = 0
         t = bname[:len(bname)-4] + "_KEY" + key + ".csv"
-        temp_file = open(dname + t, "w+")
+        temp_file = open(dname + t, "a")
         for d2 in data:
             if d2.startswith(key + ",", 0, len(key)+1):
                 temp_file.write(timestamps[tsi] + "," + d2 + "\n")
