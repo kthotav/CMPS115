@@ -4,7 +4,7 @@ import os
 
 def main():
    global x
-   if (x == 6):
+   if (x == 2):
       sys.exit()
       print("Program Exited\n")
    os.system('Parser.py')
