@@ -49,7 +49,7 @@ def parseESOKeys(filepath):
         temp_file = open(dname + t, "w+")
         for d2 in data:
             if d2.startswith(key + ",", 0, len(key)+1):
-                temp_file.write(d2 + "," + timestamps[tsi] + "\n")
+                temp_file.write(timestamps[tsi] + "," + d2 + "\n")
                 tsi += 1
 
 def main():
