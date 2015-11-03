@@ -1,14 +1,12 @@
 import threading
 import os
-from AutoCheck import linenr
-from AutoCheck import tsc
 
 def openFile(filepath):
     f = open(filepath, "r")
     data = f.read()
     return data
 
-def mock():
+def mock(tsc, linenr):
     sensor_file = openFile("SENSOR_FILE\MBNMS CMPS115_FULL.eso").splitlines()
     raw_file = open("RAW_ESO_FILES\MBNMS CMPS115_FULL.eso", "w+")
     
@@ -25,6 +23,11 @@ def mock():
                 break
         raw_file.write(d + "\n")
         linenr += 1
+        if linenr >= len(sensor_file):
+            linenr = -1
+            break
     print("Ending with line %d\n" % linenr)
-
-mock()
+    tup = [0, 0]
+    tup[0] = linenr
+    tup[1] = tsc
+    return tup
