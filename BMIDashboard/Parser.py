@@ -1,6 +1,7 @@
 import glob
 import os
 import time
+from AutoCheck import tsc
 
 def openFile(filepath):
     f = open(filepath, "r")
@@ -29,10 +30,9 @@ def parseESOKeys(filepath):
     data = openFile(filepath).splitlines()
     dname = "CLEAN_ESO_FILES\\"
     bname = os.path.basename(filepath)
-
     
     ts_filepath = bname[:len(bname)-4] + "_KEY2" + ".csv"
-    ts_file = open(dname + ts_filepath, "w+")
+    ts_file = open(dname + ts_filepath, "a")
     for d in data:
         if d.startswith("2,", 0, 2): ts_file.write(d + "\n")
     ts_file.close()
@@ -44,13 +44,12 @@ def parseESOKeys(filepath):
         for char in d1:
             if char == ',': break
             else: key += char
-        tsi = 0
         t = bname[:len(bname)-4] + "_KEY" + key + ".csv"
-        temp_file = open(dname + t, "w+")
+        temp_file = open(dname + t, "a")
         for d2 in data:
-            if d2.startswith(key + ",", 0, len(key)+1):
-                temp_file.write(d2 + "," + timestamps[tsi] + "\n")
-                tsi += 1
+            if d2.startswith(key + ",", 0, len(key)+1) and not d2.startswith("2,", 0, 2):
+                temp_file.write(timestamps[tsc] + "," + d2 + "\n")
+        tsi += 1
 
 def main():
     print("Cleaning Raw PV Files")
@@ -58,7 +57,7 @@ def main():
         print(filepath)
         if "CLEAN" not in filepath: cleanPVFile(filepath)
     print("PV Files Cleaned\n")
-
+    
     print("Cleaning Raw ESO Files")
     for filepath in glob.glob("RAW_ESO_FILES\*.eso"):
         print(filepath)
