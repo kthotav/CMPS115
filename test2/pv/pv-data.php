@@ -26,76 +26,12 @@
     }
 
 
-    $i=0;
-    while($rows=mysql_fetch_array($query))
-    {
-      $roll[$i]=$rows['var_date'];
-      $i++;
-    }
-    $total_elmt=count($roll);
+    echo json_encode($data);
 
-    ?>
-
-    <form method="POST" action="">
-    Select Roll No: <select name="sel">
-    <option>Select</option>
-
-
-    <?php
-    for($j=0;$j<$total_elmt;$j++)
-    {
-    ?><option><?php
-    echo $roll[$j];
-    ?></option><?php
-    }
-    ?>
-
-
-    </select>
-
-    <input name="submit" type="submit" value="Search"/><br />
-
-    </form>
-
-
-
-    <?php
-
-    if(isset($_POST['submit']))
-    {
-    $value=$_POST['sel'];
-
-    $query2 = "SELECT * FROM pv WHERE var_date='$value'";
-    $result2=mysql_query($query2) or die("Query Failed : ".mysql_error());
-    while($row=mysql_fetch_array($result2))
-    {
-       echo "Roll No: ".$row['var_date']."<br/>";
-
-    }
-
-
-        $myfile = fopen("data.json", "w") or die("Unable to open file!");
-        fwrite($myfile,  json_encode($data));
-        fclose($myfile);
-
-        mysql_close($server);
-    // mysql_close($connect_mysql);
-    }
-    ?>
-
-
-    <p align=right><a href="index.php">HOME</a></p>
-
-<!--
- <?php
-
-
-   //  echo json_encode($data);
-
-   //  $myfile = fopen("data.json", "w") or die("Unable to open file!");
-   //  fwrite($myfile,  json_encode($data));
-   //  fclose($myfile);
+    $myfile = fopen("data.json", "w") or die("Unable to open file!");
+    fwrite($myfile,  json_encode($data));
+    fclose($myfile);
 
 
     mysql_close($server);
-?> -->
+?>
