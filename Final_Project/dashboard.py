@@ -15,9 +15,9 @@ def createTable():
     result = createDBtable.createDBTable()
     tkMessageBox.showinfo(result)
 
+
 checkButton = Tkinter.Button(mainTop, text ="Test MySQL Connection", command = checkConnection)
 createButton = Tkinter.Button(mainTop, text="Create Table pv", command=createTable)
-
 quitButton = Tkinter.Button(mainTop, text='Quit', command=mainTop.quit)
 
 checkButton.pack()

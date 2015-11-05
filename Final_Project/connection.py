@@ -4,7 +4,7 @@
 import mysql.connector
 from mysql.connector import errorcode
 
-
+global cnx, cursor
 def establishConnection():
     # login info
     config = {
@@ -27,3 +27,8 @@ def establishConnection():
             return "Database does not exist"
         else:
             return err
+
+
+def closeConnection():
+    cursor.close()
+    cnx.close()

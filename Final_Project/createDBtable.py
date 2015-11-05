@@ -1,5 +1,5 @@
 # File: createDBtable.py
-# creates databaset able called pv ONLY once
+# Creates database table called pv ONLY once
 
 
 def createDBTable():
