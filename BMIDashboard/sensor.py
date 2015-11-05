@@ -1,14 +1,11 @@
-import threading
-import os
-
 def openFile(filepath):
     f = open(filepath, "r")
     data = f.read()
     return data
 
 def mock(tsc, linenr):
-    sensor_file = openFile("SENSOR_FILE\MBNMS CMPS115_FULL.eso").splitlines()
-    raw_file = open("RAW_ESO_FILES\MBNMS CMPS115_FULL.eso", "w+")
+    sensor_file = openFile("SENSOR\MBNMS.eso").splitlines()
+    raw_file = open("RAW_ESO\MBNMS.eso", "w+")
     
     print("Starting with line %d" % linenr)
     for data in range(linenr, len(sensor_file)):

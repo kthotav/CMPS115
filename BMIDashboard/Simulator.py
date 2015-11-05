@@ -2,8 +2,7 @@ import threading
 import sys
 import os
 import time
-import subprocess
-import sensor
+import Sensor
 import Parser
 
 def main():
@@ -11,7 +10,7 @@ def main():
    global linenr
    global tsc
    tup = []
-   tup = sensor.mock(tsc, linenr)
+   tup = Sensor.mock(tsc, linenr)
    if tsc == 2: tsc -= 1
    Parser.parse(tsc)
    x += 1
@@ -24,11 +23,4 @@ def main():
 x = 0
 linenr = 0
 tsc = 0
-
-start_time = time.time()
 main()
-end_time = time.time()
-
-print("Program Start Time: %s" % start_time)
-print("PRogram End Time: %s" % end_time)
-print("Program Runtime: --- %.4f seconds ---" % (end_time - start_time))

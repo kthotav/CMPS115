@@ -1,6 +1,5 @@
 import glob
 import os
-import time
 
 def openFile(filepath):
     f = open(filepath, "r")
@@ -9,7 +8,7 @@ def openFile(filepath):
 
 def cleanESOFile(filepath):
     data = openFile(filepath).splitlines()
-    dname = "CLEAN_ESO_FILES\\"
+    dname = "CLEAN_ESO\\"
     bname = os.path.basename(filepath)
     newbasepath = bname[:len(bname)-4] + "_FULL.csv"
     clean_file = open(dname + newbasepath, "w+")
@@ -19,7 +18,7 @@ def cleanPVFile(filepath):
     data = openFile(filepath).replace(";", ",").splitlines()
     keys = data[4]
     values = data[6:]
-    dname = "CLEAN_PV_FILES\\"
+    dname = "CLEAN_PV\\"
     bname = os.path.basename(filepath)
     clean_file = open(dname + bname, "w+")
     clean_file.write(keys + "\n")
@@ -27,10 +26,10 @@ def cleanPVFile(filepath):
 
 def parseESOKeys(filepath, tsc):
     data = openFile(filepath).splitlines()
-    dname = "CLEAN_ESO_FILES\\"
+    dname = "CLEAN_ESO\\"
     bname = os.path.basename(filepath)
     
-    ts_filepath = bname[:len(bname)-4] + "_KEY2" + ".csv"
+    ts_filepath = bname[:len(bname)-4] + "_KEY_2" + ".csv"
     ts_file = open(dname + ts_filepath, "a")
     for d in data:
         if d.startswith("2,", 0, 2): ts_file.write(d + "\n")
@@ -43,7 +42,7 @@ def parseESOKeys(filepath, tsc):
         for char in d1:
             if char == ',': break
             else: key += char
-        t = bname[:len(bname)-4] + "_KEY" + key + ".csv"
+        t = bname[:len(bname)-4] + "_KEY_" + key + ".csv"
         temp_file = open(dname + t, "a")
         for d2 in data:
             if d2.startswith(key + ",", 0, len(key)+1) and not d2.startswith("2,", 0, 2):
@@ -51,13 +50,13 @@ def parseESOKeys(filepath, tsc):
 
 def parse(tsc):
     print("Cleaning Raw PV Files")
-    for filepath in glob.glob("RAW_PV_FILES\*.csv"):
+    for filepath in glob.glob("RAW_PV\*.csv"):
         print(filepath)
         if "CLEAN" not in filepath: cleanPVFile(filepath)
     print("PV Files Cleaned\n")
     
     print("Cleaning Raw ESO Files")
-    for filepath in glob.glob("RAW_ESO_FILES\*.eso"):
+    for filepath in glob.glob("RAW_ESO\*.eso"):
         print(filepath)
         if "CLEAN" not in filepath:
             cleanESOFile(filepath)
