@@ -30,5 +30,6 @@ def establishConnection():
 
 
 def closeConnection():
+    cnx.commit()
     cursor.close()
     cnx.close()

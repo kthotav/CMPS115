@@ -3,7 +3,6 @@
 
 import Tkinter, connection, tkMessageBox, createDBtable
 
-
 mainTop = Tkinter.Tk()
 
 def checkConnection():
@@ -11,17 +10,17 @@ def checkConnection():
     tkMessageBox.showinfo(result)
 
 def createTable():
-    connection.establishConnection()
     result = createDBtable.createDBTable()
     tkMessageBox.showinfo(result)
 
 
 checkButton = Tkinter.Button(mainTop, text ="Test MySQL Connection", command = checkConnection)
-createButton = Tkinter.Button(mainTop, text="Create Table pv", command=createTable)
+createButton = Tkinter.Button(mainTop, text="Insert Data", command=createTable)
 quitButton = Tkinter.Button(mainTop, text='Quit', command=mainTop.quit)
 
 checkButton.pack()
 createButton.pack()
+
 quitButton.pack()
 
 mainTop.mainloop()
