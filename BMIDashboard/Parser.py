@@ -29,7 +29,7 @@ def parseESOKeys(filepath, tsc):
     dname = "CLEAN_ESO\\"
     bname = os.path.basename(filepath)
     
-    ts_filepath = bname[:len(bname)-4] + "_KEY_2" + ".csv"
+    ts_filepath = "2" + bname[:len(bname)-4] + ".csv"
     ts_file = open(dname + ts_filepath, "a")
     for d in data:
         if d.startswith("2,", 0, 2): ts_file.write(d + "\n")
@@ -42,18 +42,20 @@ def parseESOKeys(filepath, tsc):
         for char in d1:
             if char == ',': break
             else: key += char
-        t = bname[:len(bname)-4] + "_KEY_" + key + ".csv"
+        t = key + "_" + bname[:len(bname)-4] + ".csv"
         temp_file = open(dname + t, "a")
         for d2 in data:
             if d2.startswith(key + ",", 0, len(key)+1) and not d2.startswith("2,", 0, 2):
                 temp_file.write(timestamps[tsc] + "," + d2 + "\n")
 
 def parse(tsc):
+    """
     print("Cleaning Raw PV Files")
     for filepath in glob.glob("RAW_PV\*.csv"):
         print(filepath)
         if "CLEAN" not in filepath: cleanPVFile(filepath)
     print("PV Files Cleaned\n")
+    """
     
     print("Cleaning Raw ESO Files")
     for filepath in glob.glob("RAW_ESO\*.eso"):
