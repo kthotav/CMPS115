@@ -1,0 +1,867 @@
+6,Environment,Site Outdoor Air Drybulb Temperature [C] !TimeStep
+7,Environment,Site Outdoor Air Dewpoint Temperature [C] !TimeStep
+8,Environment,Site Outdoor Air Barometric Pressure [Pa] !TimeStep
+9,Environment,Site Wind Speed [m/s] !TimeStep
+10,Environment,Site Wind Direction [deg] !TimeStep
+11,Environment,Site Diffuse Solar Radiation Rate per Area [W/m2] !TimeStep
+12,Environment,Site Direct Solar Radiation Rate per Area [W/m2] !TimeStep
+13,Environment,Site Solar Azimuth Angle [deg] !TimeStep
+14,Environment,Site Solar Altitude Angle [deg] !TimeStep
+15,1STFLOOR:STAIRS,Zone People Sensible Heating Rate [W] !TimeStep
+16,1STFLOOR:TRASHROOM,Zone People Sensible Heating Rate [W] !TimeStep
+17,1STFLOOR:STAFFRESTROOM,Zone People Sensible Heating Rate [W] !TimeStep
+18,1STFLOOR:OPENOFFICE,Zone People Sensible Heating Rate [W] !TimeStep
+19,1STFLOOR:OFFICE111,Zone People Sensible Heating Rate [W] !TimeStep
+20,1STFLOOR:TANK,Zone People Sensible Heating Rate [W] !TimeStep
+21,1STFLOOR:PUMPROOM,Zone People Sensible Heating Rate [W] !TimeStep
+22,1STFLOOR:LOBBY,Zone People Sensible Heating Rate [W] !TimeStep
+23,1STFLOOR:PREPROOM,Zone People Sensible Heating Rate [W] !TimeStep
+24,1STFLOOR:KITCHEN,Zone People Sensible Heating Rate [W] !TimeStep
+25,1STFLOOR:VESTIBULE,Zone People Sensible Heating Rate [W] !TimeStep
+26,1STFLOOR:ELEC.,Zone People Sensible Heating Rate [W] !TimeStep
+27,1STFLOOR:JANITOR,Zone People Sensible Heating Rate [W] !TimeStep
+28,1STFLOOR:MEN%SRESTROOM,Zone People Sensible Heating Rate [W] !TimeStep
+29,1STFLOOR:LOBBY1,Zone People Sensible Heating Rate [W] !TimeStep
+30,1STFLOOR:STORAGE,Zone People Sensible Heating Rate [W] !TimeStep
+31,1STFLOOR:ELEV.CLOSET,Zone People Sensible Heating Rate [W] !TimeStep
+32,1STFLOOR:ELEVATOR,Zone People Sensible Heating Rate [W] !TimeStep
+33,1STFLOOR:OFFICE,Zone People Sensible Heating Rate [W] !TimeStep
+34,1STFLOOR:WOMEN%SRESTROOM,Zone People Sensible Heating Rate [W] !TimeStep
+35,1STFLOOR:CLASSROOM,Zone People Sensible Heating Rate [W] !TimeStep
+36,BLOCK2:STORGE,Zone People Sensible Heating Rate [W] !TimeStep
+37,BLOCK2:MAINAREA,Zone People Sensible Heating Rate [W] !TimeStep
+38,BLOCK2:AQUARIUM,Zone People Sensible Heating Rate [W] !TimeStep
+39,BLOCK2:ELEVATOR1,Zone People Sensible Heating Rate [W] !TimeStep
+40,BLOCK2:VESTIBULE,Zone People Sensible Heating Rate [W] !TimeStep
+41,BLOCK2:MECH.,Zone People Sensible Heating Rate [W] !TimeStep
+42,BLOCK2:THEATER,Zone People Sensible Heating Rate [W] !TimeStep
+43,BLOCK2:CLOSET,Zone People Sensible Heating Rate [W] !TimeStep
+44,BLOCK2:ZONE8,Zone People Sensible Heating Rate [W] !TimeStep
+45,BLOCK2:ELEVATOR,Zone People Sensible Heating Rate [W] !TimeStep
+46,BLOCK2:EQUIPTMENTRM.,Zone People Sensible Heating Rate [W] !TimeStep
+47,BLOCK1:MAINAREA,Zone People Sensible Heating Rate [W] !TimeStep
+1804,1STFLOOR:STAIRS,Zone Windows Total Transmitted Solar Radiation Rate [W] !TimeStep
+1805,1STFLOOR:STAIRS,Zone Interior Windows Total Transmitted Beam Solar Radiation Rate [W] !TimeStep
+1806,1STFLOOR:STAIRS,Zone Interior Windows Total Transmitted Diffuse Solar Radiation Rate [W] !TimeStep
+1807,1STFLOOR:TRASHROOM,Zone Windows Total Transmitted Solar Radiation Rate [W] !TimeStep
+1808,1STFLOOR:TRASHROOM,Zone Interior Windows Total Transmitted Beam Solar Radiation Rate [W] !TimeStep
+1809,1STFLOOR:TRASHROOM,Zone Interior Windows Total Transmitted Diffuse Solar Radiation Rate [W] !TimeStep
+1810,1STFLOOR:STAFFRESTROOM,Zone Windows Total Transmitted Solar Radiation Rate [W] !TimeStep
+1811,1STFLOOR:STAFFRESTROOM,Zone Interior Windows Total Transmitted Beam Solar Radiation Rate [W] !TimeStep
+1812,1STFLOOR:STAFFRESTROOM,Zone Interior Windows Total Transmitted Diffuse Solar Radiation Rate [W] !TimeStep
+1813,1STFLOOR:OPENOFFICE,Zone Windows Total Transmitted Solar Radiation Rate [W] !TimeStep
+1814,1STFLOOR:OPENOFFICE,Zone Interior Windows Total Transmitted Beam Solar Radiation Rate [W] !TimeStep
+1815,1STFLOOR:OPENOFFICE,Zone Interior Windows Total Transmitted Diffuse Solar Radiation Rate [W] !TimeStep
+1816,1STFLOOR:OFFICE111,Zone Windows Total Transmitted Solar Radiation Rate [W] !TimeStep
+1817,1STFLOOR:OFFICE111,Zone Interior Windows Total Transmitted Beam Solar Radiation Rate [W] !TimeStep
+1818,1STFLOOR:OFFICE111,Zone Interior Windows Total Transmitted Diffuse Solar Radiation Rate [W] !TimeStep
+1819,1STFLOOR:TANK,Zone Windows Total Transmitted Solar Radiation Rate [W] !TimeStep
+1820,1STFLOOR:TANK,Zone Interior Windows Total Transmitted Beam Solar Radiation Rate [W] !TimeStep
+1821,1STFLOOR:TANK,Zone Interior Windows Total Transmitted Diffuse Solar Radiation Rate [W] !TimeStep
+1822,1STFLOOR:PUMPROOM,Zone Windows Total Transmitted Solar Radiation Rate [W] !TimeStep
+1823,1STFLOOR:PUMPROOM,Zone Interior Windows Total Transmitted Beam Solar Radiation Rate [W] !TimeStep
+1824,1STFLOOR:PUMPROOM,Zone Interior Windows Total Transmitted Diffuse Solar Radiation Rate [W] !TimeStep
+1825,1STFLOOR:LOBBY,Zone Windows Total Transmitted Solar Radiation Rate [W] !TimeStep
+1826,1STFLOOR:LOBBY,Zone Interior Windows Total Transmitted Beam Solar Radiation Rate [W] !TimeStep
+1827,1STFLOOR:LOBBY,Zone Interior Windows Total Transmitted Diffuse Solar Radiation Rate [W] !TimeStep
+1828,1STFLOOR:PREPROOM,Zone Windows Total Transmitted Solar Radiation Rate [W] !TimeStep
+1829,1STFLOOR:PREPROOM,Zone Interior Windows Total Transmitted Beam Solar Radiation Rate [W] !TimeStep
+1830,1STFLOOR:PREPROOM,Zone Interior Windows Total Transmitted Diffuse Solar Radiation Rate [W] !TimeStep
+1831,1STFLOOR:KITCHEN,Zone Windows Total Transmitted Solar Radiation Rate [W] !TimeStep
+1832,1STFLOOR:KITCHEN,Zone Interior Windows Total Transmitted Beam Solar Radiation Rate [W] !TimeStep
+1833,1STFLOOR:KITCHEN,Zone Interior Windows Total Transmitted Diffuse Solar Radiation Rate [W] !TimeStep
+1834,1STFLOOR:VESTIBULE,Zone Windows Total Transmitted Solar Radiation Rate [W] !TimeStep
+1835,1STFLOOR:VESTIBULE,Zone Interior Windows Total Transmitted Beam Solar Radiation Rate [W] !TimeStep
+1836,1STFLOOR:VESTIBULE,Zone Interior Windows Total Transmitted Diffuse Solar Radiation Rate [W] !TimeStep
+1837,1STFLOOR:ELEC.,Zone Windows Total Transmitted Solar Radiation Rate [W] !TimeStep
+1838,1STFLOOR:ELEC.,Zone Interior Windows Total Transmitted Beam Solar Radiation Rate [W] !TimeStep
+1839,1STFLOOR:ELEC.,Zone Interior Windows Total Transmitted Diffuse Solar Radiation Rate [W] !TimeStep
+1840,1STFLOOR:JANITOR,Zone Windows Total Transmitted Solar Radiation Rate [W] !TimeStep
+1841,1STFLOOR:JANITOR,Zone Interior Windows Total Transmitted Beam Solar Radiation Rate [W] !TimeStep
+1842,1STFLOOR:JANITOR,Zone Interior Windows Total Transmitted Diffuse Solar Radiation Rate [W] !TimeStep
+1843,1STFLOOR:MEN%SRESTROOM,Zone Windows Total Transmitted Solar Radiation Rate [W] !TimeStep
+1844,1STFLOOR:MEN%SRESTROOM,Zone Interior Windows Total Transmitted Beam Solar Radiation Rate [W] !TimeStep
+1845,1STFLOOR:MEN%SRESTROOM,Zone Interior Windows Total Transmitted Diffuse Solar Radiation Rate [W] !TimeStep
+1846,1STFLOOR:LOBBY1,Zone Windows Total Transmitted Solar Radiation Rate [W] !TimeStep
+1847,1STFLOOR:LOBBY1,Zone Interior Windows Total Transmitted Beam Solar Radiation Rate [W] !TimeStep
+1848,1STFLOOR:LOBBY1,Zone Interior Windows Total Transmitted Diffuse Solar Radiation Rate [W] !TimeStep
+1849,1STFLOOR:STORAGE,Zone Windows Total Transmitted Solar Radiation Rate [W] !TimeStep
+1850,1STFLOOR:STORAGE,Zone Interior Windows Total Transmitted Beam Solar Radiation Rate [W] !TimeStep
+1851,1STFLOOR:STORAGE,Zone Interior Windows Total Transmitted Diffuse Solar Radiation Rate [W] !TimeStep
+1852,1STFLOOR:ELEV.CLOSET,Zone Windows Total Transmitted Solar Radiation Rate [W] !TimeStep
+1853,1STFLOOR:ELEV.CLOSET,Zone Interior Windows Total Transmitted Beam Solar Radiation Rate [W] !TimeStep
+1854,1STFLOOR:ELEV.CLOSET,Zone Interior Windows Total Transmitted Diffuse Solar Radiation Rate [W] !TimeStep
+1855,1STFLOOR:ELEVATOR,Zone Windows Total Transmitted Solar Radiation Rate [W] !TimeStep
+1856,1STFLOOR:ELEVATOR,Zone Interior Windows Total Transmitted Beam Solar Radiation Rate [W] !TimeStep
+1857,1STFLOOR:ELEVATOR,Zone Interior Windows Total Transmitted Diffuse Solar Radiation Rate [W] !TimeStep
+1858,1STFLOOR:OFFICE,Zone Windows Total Transmitted Solar Radiation Rate [W] !TimeStep
+1859,1STFLOOR:OFFICE,Zone Interior Windows Total Transmitted Beam Solar Radiation Rate [W] !TimeStep
+1860,1STFLOOR:OFFICE,Zone Interior Windows Total Transmitted Diffuse Solar Radiation Rate [W] !TimeStep
+1861,1STFLOOR:WOMEN%SRESTROOM,Zone Windows Total Transmitted Solar Radiation Rate [W] !TimeStep
+1862,1STFLOOR:WOMEN%SRESTROOM,Zone Interior Windows Total Transmitted Beam Solar Radiation Rate [W] !TimeStep
+1863,1STFLOOR:WOMEN%SRESTROOM,Zone Interior Windows Total Transmitted Diffuse Solar Radiation Rate [W] !TimeStep
+1864,1STFLOOR:CLASSROOM,Zone Windows Total Transmitted Solar Radiation Rate [W] !TimeStep
+1865,1STFLOOR:CLASSROOM,Zone Interior Windows Total Transmitted Beam Solar Radiation Rate [W] !TimeStep
+1866,1STFLOOR:CLASSROOM,Zone Interior Windows Total Transmitted Diffuse Solar Radiation Rate [W] !TimeStep
+1867,BLOCK2:STORGE,Zone Windows Total Transmitted Solar Radiation Rate [W] !TimeStep
+1868,BLOCK2:STORGE,Zone Interior Windows Total Transmitted Beam Solar Radiation Rate [W] !TimeStep
+1869,BLOCK2:STORGE,Zone Interior Windows Total Transmitted Diffuse Solar Radiation Rate [W] !TimeStep
+1870,BLOCK2:MAINAREA,Zone Windows Total Transmitted Solar Radiation Rate [W] !TimeStep
+1871,BLOCK2:MAINAREA,Zone Interior Windows Total Transmitted Beam Solar Radiation Rate [W] !TimeStep
+1872,BLOCK2:MAINAREA,Zone Interior Windows Total Transmitted Diffuse Solar Radiation Rate [W] !TimeStep
+1873,BLOCK2:AQUARIUM,Zone Windows Total Transmitted Solar Radiation Rate [W] !TimeStep
+1874,BLOCK2:AQUARIUM,Zone Interior Windows Total Transmitted Beam Solar Radiation Rate [W] !TimeStep
+1875,BLOCK2:AQUARIUM,Zone Interior Windows Total Transmitted Diffuse Solar Radiation Rate [W] !TimeStep
+1876,BLOCK2:ELEVATOR1,Zone Windows Total Transmitted Solar Radiation Rate [W] !TimeStep
+1877,BLOCK2:ELEVATOR1,Zone Interior Windows Total Transmitted Beam Solar Radiation Rate [W] !TimeStep
+1878,BLOCK2:ELEVATOR1,Zone Interior Windows Total Transmitted Diffuse Solar Radiation Rate [W] !TimeStep
+1879,BLOCK2:VESTIBULE,Zone Windows Total Transmitted Solar Radiation Rate [W] !TimeStep
+1880,BLOCK2:VESTIBULE,Zone Interior Windows Total Transmitted Beam Solar Radiation Rate [W] !TimeStep
+1881,BLOCK2:VESTIBULE,Zone Interior Windows Total Transmitted Diffuse Solar Radiation Rate [W] !TimeStep
+1882,BLOCK2:MECH.,Zone Windows Total Transmitted Solar Radiation Rate [W] !TimeStep
+1883,BLOCK2:MECH.,Zone Interior Windows Total Transmitted Beam Solar Radiation Rate [W] !TimeStep
+1884,BLOCK2:MECH.,Zone Interior Windows Total Transmitted Diffuse Solar Radiation Rate [W] !TimeStep
+1885,BLOCK2:THEATER,Zone Windows Total Transmitted Solar Radiation Rate [W] !TimeStep
+1886,BLOCK2:THEATER,Zone Interior Windows Total Transmitted Beam Solar Radiation Rate [W] !TimeStep
+1887,BLOCK2:THEATER,Zone Interior Windows Total Transmitted Diffuse Solar Radiation Rate [W] !TimeStep
+1888,BLOCK2:CLOSET,Zone Windows Total Transmitted Solar Radiation Rate [W] !TimeStep
+1889,BLOCK2:CLOSET,Zone Interior Windows Total Transmitted Beam Solar Radiation Rate [W] !TimeStep
+1890,BLOCK2:CLOSET,Zone Interior Windows Total Transmitted Diffuse Solar Radiation Rate [W] !TimeStep
+1891,BLOCK2:ZONE8,Zone Windows Total Transmitted Solar Radiation Rate [W] !TimeStep
+1892,BLOCK2:ZONE8,Zone Interior Windows Total Transmitted Beam Solar Radiation Rate [W] !TimeStep
+1893,BLOCK2:ZONE8,Zone Interior Windows Total Transmitted Diffuse Solar Radiation Rate [W] !TimeStep
+1894,BLOCK2:ELEVATOR,Zone Windows Total Transmitted Solar Radiation Rate [W] !TimeStep
+1895,BLOCK2:ELEVATOR,Zone Interior Windows Total Transmitted Beam Solar Radiation Rate [W] !TimeStep
+1896,BLOCK2:ELEVATOR,Zone Interior Windows Total Transmitted Diffuse Solar Radiation Rate [W] !TimeStep
+1897,BLOCK2:EQUIPTMENTRM.,Zone Windows Total Transmitted Solar Radiation Rate [W] !TimeStep
+1898,BLOCK2:EQUIPTMENTRM.,Zone Interior Windows Total Transmitted Beam Solar Radiation Rate [W] !TimeStep
+1899,BLOCK2:EQUIPTMENTRM.,Zone Interior Windows Total Transmitted Diffuse Solar Radiation Rate [W] !TimeStep
+1900,BLOCK1:MAINAREA,Zone Windows Total Transmitted Solar Radiation Rate [W] !TimeStep
+1901,BLOCK1:MAINAREA,Zone Interior Windows Total Transmitted Beam Solar Radiation Rate [W] !TimeStep
+1902,BLOCK1:MAINAREA,Zone Interior Windows Total Transmitted Diffuse Solar Radiation Rate [W] !TimeStep
+1903,1STFLOOR:STAIRS,Zone Mean Radiant Temperature [C] !TimeStep
+1904,1STFLOOR:TRASHROOM,Zone Mean Radiant Temperature [C] !TimeStep
+1905,1STFLOOR:STAFFRESTROOM,Zone Mean Radiant Temperature [C] !TimeStep
+1906,1STFLOOR:OPENOFFICE,Zone Mean Radiant Temperature [C] !TimeStep
+1907,1STFLOOR:OFFICE111,Zone Mean Radiant Temperature [C] !TimeStep
+1908,1STFLOOR:TANK,Zone Mean Radiant Temperature [C] !TimeStep
+1909,1STFLOOR:PUMPROOM,Zone Mean Radiant Temperature [C] !TimeStep
+1910,1STFLOOR:LOBBY,Zone Mean Radiant Temperature [C] !TimeStep
+1911,1STFLOOR:PREPROOM,Zone Mean Radiant Temperature [C] !TimeStep
+1912,1STFLOOR:KITCHEN,Zone Mean Radiant Temperature [C] !TimeStep
+1913,1STFLOOR:VESTIBULE,Zone Mean Radiant Temperature [C] !TimeStep
+1914,1STFLOOR:ELEC.,Zone Mean Radiant Temperature [C] !TimeStep
+1915,1STFLOOR:JANITOR,Zone Mean Radiant Temperature [C] !TimeStep
+1916,1STFLOOR:MEN%SRESTROOM,Zone Mean Radiant Temperature [C] !TimeStep
+1917,1STFLOOR:LOBBY1,Zone Mean Radiant Temperature [C] !TimeStep
+1918,1STFLOOR:STORAGE,Zone Mean Radiant Temperature [C] !TimeStep
+1919,1STFLOOR:ELEV.CLOSET,Zone Mean Radiant Temperature [C] !TimeStep
+1920,1STFLOOR:ELEVATOR,Zone Mean Radiant Temperature [C] !TimeStep
+1921,1STFLOOR:OFFICE,Zone Mean Radiant Temperature [C] !TimeStep
+1922,1STFLOOR:WOMEN%SRESTROOM,Zone Mean Radiant Temperature [C] !TimeStep
+1923,1STFLOOR:CLASSROOM,Zone Mean Radiant Temperature [C] !TimeStep
+1924,BLOCK2:STORGE,Zone Mean Radiant Temperature [C] !TimeStep
+1925,BLOCK2:MAINAREA,Zone Mean Radiant Temperature [C] !TimeStep
+1926,BLOCK2:AQUARIUM,Zone Mean Radiant Temperature [C] !TimeStep
+1927,BLOCK2:ELEVATOR1,Zone Mean Radiant Temperature [C] !TimeStep
+1928,BLOCK2:VESTIBULE,Zone Mean Radiant Temperature [C] !TimeStep
+1929,BLOCK2:MECH.,Zone Mean Radiant Temperature [C] !TimeStep
+1930,BLOCK2:THEATER,Zone Mean Radiant Temperature [C] !TimeStep
+1931,BLOCK2:CLOSET,Zone Mean Radiant Temperature [C] !TimeStep
+1932,BLOCK2:ZONE8,Zone Mean Radiant Temperature [C] !TimeStep
+1933,BLOCK2:ELEVATOR,Zone Mean Radiant Temperature [C] !TimeStep
+1934,BLOCK2:EQUIPTMENTRM.,Zone Mean Radiant Temperature [C] !TimeStep
+1935,BLOCK1:MAINAREA,Zone Mean Radiant Temperature [C] !TimeStep
+1936,1STFLOOR:STAIRS,Zone Mean Air Temperature [C] !TimeStep
+1937,1STFLOOR:STAIRS,Zone Operative Temperature [C] !TimeStep
+1938,1STFLOOR:TRASHROOM,Zone Mean Air Temperature [C] !TimeStep
+1939,1STFLOOR:TRASHROOM,Zone Operative Temperature [C] !TimeStep
+1940,1STFLOOR:STAFFRESTROOM,Zone Mean Air Temperature [C] !TimeStep
+1941,1STFLOOR:STAFFRESTROOM,Zone Operative Temperature [C] !TimeStep
+1942,1STFLOOR:OPENOFFICE,Zone Mean Air Temperature [C] !TimeStep
+1943,1STFLOOR:OPENOFFICE,Zone Operative Temperature [C] !TimeStep
+1944,1STFLOOR:OFFICE111,Zone Mean Air Temperature [C] !TimeStep
+1945,1STFLOOR:OFFICE111,Zone Operative Temperature [C] !TimeStep
+1946,1STFLOOR:TANK,Zone Mean Air Temperature [C] !TimeStep
+1947,1STFLOOR:TANK,Zone Operative Temperature [C] !TimeStep
+1948,1STFLOOR:PUMPROOM,Zone Mean Air Temperature [C] !TimeStep
+1949,1STFLOOR:PUMPROOM,Zone Operative Temperature [C] !TimeStep
+1950,1STFLOOR:LOBBY,Zone Mean Air Temperature [C] !TimeStep
+1951,1STFLOOR:LOBBY,Zone Operative Temperature [C] !TimeStep
+1952,1STFLOOR:PREPROOM,Zone Mean Air Temperature [C] !TimeStep
+1953,1STFLOOR:PREPROOM,Zone Operative Temperature [C] !TimeStep
+1954,1STFLOOR:KITCHEN,Zone Mean Air Temperature [C] !TimeStep
+1955,1STFLOOR:KITCHEN,Zone Operative Temperature [C] !TimeStep
+1956,1STFLOOR:VESTIBULE,Zone Mean Air Temperature [C] !TimeStep
+1957,1STFLOOR:VESTIBULE,Zone Operative Temperature [C] !TimeStep
+1958,1STFLOOR:ELEC.,Zone Mean Air Temperature [C] !TimeStep
+1959,1STFLOOR:ELEC.,Zone Operative Temperature [C] !TimeStep
+1960,1STFLOOR:JANITOR,Zone Mean Air Temperature [C] !TimeStep
+1961,1STFLOOR:JANITOR,Zone Operative Temperature [C] !TimeStep
+1962,1STFLOOR:MEN%SRESTROOM,Zone Mean Air Temperature [C] !TimeStep
+1963,1STFLOOR:MEN%SRESTROOM,Zone Operative Temperature [C] !TimeStep
+1964,1STFLOOR:LOBBY1,Zone Mean Air Temperature [C] !TimeStep
+1965,1STFLOOR:LOBBY1,Zone Operative Temperature [C] !TimeStep
+1966,1STFLOOR:STORAGE,Zone Mean Air Temperature [C] !TimeStep
+1967,1STFLOOR:STORAGE,Zone Operative Temperature [C] !TimeStep
+1968,1STFLOOR:ELEV.CLOSET,Zone Mean Air Temperature [C] !TimeStep
+1969,1STFLOOR:ELEV.CLOSET,Zone Operative Temperature [C] !TimeStep
+1970,1STFLOOR:ELEVATOR,Zone Mean Air Temperature [C] !TimeStep
+1971,1STFLOOR:ELEVATOR,Zone Operative Temperature [C] !TimeStep
+1972,1STFLOOR:OFFICE,Zone Mean Air Temperature [C] !TimeStep
+1973,1STFLOOR:OFFICE,Zone Operative Temperature [C] !TimeStep
+1974,1STFLOOR:WOMEN%SRESTROOM,Zone Mean Air Temperature [C] !TimeStep
+1975,1STFLOOR:WOMEN%SRESTROOM,Zone Operative Temperature [C] !TimeStep
+1976,1STFLOOR:CLASSROOM,Zone Mean Air Temperature [C] !TimeStep
+1977,1STFLOOR:CLASSROOM,Zone Operative Temperature [C] !TimeStep
+1978,BLOCK2:STORGE,Zone Mean Air Temperature [C] !TimeStep
+1979,BLOCK2:STORGE,Zone Operative Temperature [C] !TimeStep
+1980,BLOCK2:MAINAREA,Zone Mean Air Temperature [C] !TimeStep
+1981,BLOCK2:MAINAREA,Zone Operative Temperature [C] !TimeStep
+1982,BLOCK2:AQUARIUM,Zone Mean Air Temperature [C] !TimeStep
+1983,BLOCK2:AQUARIUM,Zone Operative Temperature [C] !TimeStep
+1984,BLOCK2:ELEVATOR1,Zone Mean Air Temperature [C] !TimeStep
+1985,BLOCK2:ELEVATOR1,Zone Operative Temperature [C] !TimeStep
+1986,BLOCK2:VESTIBULE,Zone Mean Air Temperature [C] !TimeStep
+1987,BLOCK2:VESTIBULE,Zone Operative Temperature [C] !TimeStep
+1988,BLOCK2:MECH.,Zone Mean Air Temperature [C] !TimeStep
+1989,BLOCK2:MECH.,Zone Operative Temperature [C] !TimeStep
+1990,BLOCK2:THEATER,Zone Mean Air Temperature [C] !TimeStep
+1991,BLOCK2:THEATER,Zone Operative Temperature [C] !TimeStep
+1992,BLOCK2:CLOSET,Zone Mean Air Temperature [C] !TimeStep
+1993,BLOCK2:CLOSET,Zone Operative Temperature [C] !TimeStep
+1994,BLOCK2:ZONE8,Zone Mean Air Temperature [C] !TimeStep
+1995,BLOCK2:ZONE8,Zone Operative Temperature [C] !TimeStep
+1996,BLOCK2:ELEVATOR,Zone Mean Air Temperature [C] !TimeStep
+1997,BLOCK2:ELEVATOR,Zone Operative Temperature [C] !TimeStep
+1998,BLOCK2:EQUIPTMENTRM.,Zone Mean Air Temperature [C] !TimeStep
+1999,BLOCK2:EQUIPTMENTRM.,Zone Operative Temperature [C] !TimeStep
+2000,BLOCK1:MAINAREA,Zone Mean Air Temperature [C] !TimeStep
+2001,BLOCK1:MAINAREA,Zone Operative Temperature [C] !TimeStep
+2002,1STFLOOR:STAIRS,Zone Infiltration Sensible Heat Loss Energy [J] !TimeStep
+2003,1STFLOOR:STAIRS,Zone Infiltration Sensible Heat Gain Energy [J] !TimeStep
+2004,1STFLOOR:STAIRS,Zone Infiltration Air Change Rate [ach] !TimeStep
+2005,1STFLOOR:TRASHROOM,Zone Infiltration Sensible Heat Loss Energy [J] !TimeStep
+2006,1STFLOOR:TRASHROOM,Zone Infiltration Sensible Heat Gain Energy [J] !TimeStep
+2007,1STFLOOR:TRASHROOM,Zone Infiltration Air Change Rate [ach] !TimeStep
+2008,1STFLOOR:STAFFRESTROOM,Zone Infiltration Sensible Heat Loss Energy [J] !TimeStep
+2009,1STFLOOR:STAFFRESTROOM,Zone Infiltration Sensible Heat Gain Energy [J] !TimeStep
+2010,1STFLOOR:STAFFRESTROOM,Zone Infiltration Air Change Rate [ach] !TimeStep
+2011,1STFLOOR:OPENOFFICE,Zone Infiltration Sensible Heat Loss Energy [J] !TimeStep
+2012,1STFLOOR:OPENOFFICE,Zone Infiltration Sensible Heat Gain Energy [J] !TimeStep
+2013,1STFLOOR:OPENOFFICE,Zone Infiltration Air Change Rate [ach] !TimeStep
+2014,1STFLOOR:OFFICE111,Zone Infiltration Sensible Heat Loss Energy [J] !TimeStep
+2015,1STFLOOR:OFFICE111,Zone Infiltration Sensible Heat Gain Energy [J] !TimeStep
+2016,1STFLOOR:OFFICE111,Zone Infiltration Air Change Rate [ach] !TimeStep
+2017,1STFLOOR:TANK,Zone Infiltration Sensible Heat Loss Energy [J] !TimeStep
+2018,1STFLOOR:TANK,Zone Infiltration Sensible Heat Gain Energy [J] !TimeStep
+2019,1STFLOOR:TANK,Zone Infiltration Air Change Rate [ach] !TimeStep
+2020,1STFLOOR:PUMPROOM,Zone Infiltration Sensible Heat Loss Energy [J] !TimeStep
+2021,1STFLOOR:PUMPROOM,Zone Infiltration Sensible Heat Gain Energy [J] !TimeStep
+2022,1STFLOOR:PUMPROOM,Zone Infiltration Air Change Rate [ach] !TimeStep
+2023,1STFLOOR:LOBBY,Zone Infiltration Sensible Heat Loss Energy [J] !TimeStep
+2024,1STFLOOR:LOBBY,Zone Infiltration Sensible Heat Gain Energy [J] !TimeStep
+2025,1STFLOOR:LOBBY,Zone Infiltration Air Change Rate [ach] !TimeStep
+2026,1STFLOOR:PREPROOM,Zone Infiltration Sensible Heat Loss Energy [J] !TimeStep
+2027,1STFLOOR:PREPROOM,Zone Infiltration Sensible Heat Gain Energy [J] !TimeStep
+2028,1STFLOOR:PREPROOM,Zone Infiltration Air Change Rate [ach] !TimeStep
+2029,1STFLOOR:KITCHEN,Zone Infiltration Sensible Heat Loss Energy [J] !TimeStep
+2030,1STFLOOR:KITCHEN,Zone Infiltration Sensible Heat Gain Energy [J] !TimeStep
+2031,1STFLOOR:KITCHEN,Zone Infiltration Air Change Rate [ach] !TimeStep
+2032,1STFLOOR:VESTIBULE,Zone Infiltration Sensible Heat Loss Energy [J] !TimeStep
+2033,1STFLOOR:VESTIBULE,Zone Infiltration Sensible Heat Gain Energy [J] !TimeStep
+2034,1STFLOOR:VESTIBULE,Zone Infiltration Air Change Rate [ach] !TimeStep
+2035,1STFLOOR:ELEC.,Zone Infiltration Sensible Heat Loss Energy [J] !TimeStep
+2036,1STFLOOR:ELEC.,Zone Infiltration Sensible Heat Gain Energy [J] !TimeStep
+2037,1STFLOOR:ELEC.,Zone Infiltration Air Change Rate [ach] !TimeStep
+2038,1STFLOOR:JANITOR,Zone Infiltration Sensible Heat Loss Energy [J] !TimeStep
+2039,1STFLOOR:JANITOR,Zone Infiltration Sensible Heat Gain Energy [J] !TimeStep
+2040,1STFLOOR:JANITOR,Zone Infiltration Air Change Rate [ach] !TimeStep
+2041,1STFLOOR:MEN%SRESTROOM,Zone Infiltration Sensible Heat Loss Energy [J] !TimeStep
+2042,1STFLOOR:MEN%SRESTROOM,Zone Infiltration Sensible Heat Gain Energy [J] !TimeStep
+2043,1STFLOOR:MEN%SRESTROOM,Zone Infiltration Air Change Rate [ach] !TimeStep
+2044,1STFLOOR:LOBBY1,Zone Infiltration Sensible Heat Loss Energy [J] !TimeStep
+2045,1STFLOOR:LOBBY1,Zone Infiltration Sensible Heat Gain Energy [J] !TimeStep
+2046,1STFLOOR:LOBBY1,Zone Infiltration Air Change Rate [ach] !TimeStep
+2047,1STFLOOR:STORAGE,Zone Infiltration Sensible Heat Loss Energy [J] !TimeStep
+2048,1STFLOOR:STORAGE,Zone Infiltration Sensible Heat Gain Energy [J] !TimeStep
+2049,1STFLOOR:STORAGE,Zone Infiltration Air Change Rate [ach] !TimeStep
+2050,1STFLOOR:ELEV.CLOSET,Zone Infiltration Sensible Heat Loss Energy [J] !TimeStep
+2051,1STFLOOR:ELEV.CLOSET,Zone Infiltration Sensible Heat Gain Energy [J] !TimeStep
+2052,1STFLOOR:ELEV.CLOSET,Zone Infiltration Air Change Rate [ach] !TimeStep
+2053,1STFLOOR:ELEVATOR,Zone Infiltration Sensible Heat Loss Energy [J] !TimeStep
+2054,1STFLOOR:ELEVATOR,Zone Infiltration Sensible Heat Gain Energy [J] !TimeStep
+2055,1STFLOOR:ELEVATOR,Zone Infiltration Air Change Rate [ach] !TimeStep
+2056,1STFLOOR:OFFICE,Zone Infiltration Sensible Heat Loss Energy [J] !TimeStep
+2057,1STFLOOR:OFFICE,Zone Infiltration Sensible Heat Gain Energy [J] !TimeStep
+2058,1STFLOOR:OFFICE,Zone Infiltration Air Change Rate [ach] !TimeStep
+2059,1STFLOOR:WOMEN%SRESTROOM,Zone Infiltration Sensible Heat Loss Energy [J] !TimeStep
+2060,1STFLOOR:WOMEN%SRESTROOM,Zone Infiltration Sensible Heat Gain Energy [J] !TimeStep
+2061,1STFLOOR:WOMEN%SRESTROOM,Zone Infiltration Air Change Rate [ach] !TimeStep
+2062,1STFLOOR:CLASSROOM,Zone Infiltration Sensible Heat Loss Energy [J] !TimeStep
+2063,1STFLOOR:CLASSROOM,Zone Infiltration Sensible Heat Gain Energy [J] !TimeStep
+2064,1STFLOOR:CLASSROOM,Zone Infiltration Air Change Rate [ach] !TimeStep
+2065,BLOCK2:STORGE,Zone Infiltration Sensible Heat Loss Energy [J] !TimeStep
+2066,BLOCK2:STORGE,Zone Infiltration Sensible Heat Gain Energy [J] !TimeStep
+2067,BLOCK2:STORGE,Zone Infiltration Air Change Rate [ach] !TimeStep
+2068,BLOCK2:MAINAREA,Zone Infiltration Sensible Heat Loss Energy [J] !TimeStep
+2069,BLOCK2:MAINAREA,Zone Infiltration Sensible Heat Gain Energy [J] !TimeStep
+2070,BLOCK2:MAINAREA,Zone Infiltration Air Change Rate [ach] !TimeStep
+2071,BLOCK2:AQUARIUM,Zone Infiltration Sensible Heat Loss Energy [J] !TimeStep
+2072,BLOCK2:AQUARIUM,Zone Infiltration Sensible Heat Gain Energy [J] !TimeStep
+2073,BLOCK2:AQUARIUM,Zone Infiltration Air Change Rate [ach] !TimeStep
+2074,BLOCK2:ELEVATOR1,Zone Infiltration Sensible Heat Loss Energy [J] !TimeStep
+2075,BLOCK2:ELEVATOR1,Zone Infiltration Sensible Heat Gain Energy [J] !TimeStep
+2076,BLOCK2:ELEVATOR1,Zone Infiltration Air Change Rate [ach] !TimeStep
+2077,BLOCK2:VESTIBULE,Zone Infiltration Sensible Heat Loss Energy [J] !TimeStep
+2078,BLOCK2:VESTIBULE,Zone Infiltration Sensible Heat Gain Energy [J] !TimeStep
+2079,BLOCK2:VESTIBULE,Zone Infiltration Air Change Rate [ach] !TimeStep
+2080,BLOCK2:MECH.,Zone Infiltration Sensible Heat Loss Energy [J] !TimeStep
+2081,BLOCK2:MECH.,Zone Infiltration Sensible Heat Gain Energy [J] !TimeStep
+2082,BLOCK2:MECH.,Zone Infiltration Air Change Rate [ach] !TimeStep
+2083,BLOCK2:THEATER,Zone Infiltration Sensible Heat Loss Energy [J] !TimeStep
+2084,BLOCK2:THEATER,Zone Infiltration Sensible Heat Gain Energy [J] !TimeStep
+2085,BLOCK2:THEATER,Zone Infiltration Air Change Rate [ach] !TimeStep
+2086,BLOCK2:CLOSET,Zone Infiltration Sensible Heat Loss Energy [J] !TimeStep
+2087,BLOCK2:CLOSET,Zone Infiltration Sensible Heat Gain Energy [J] !TimeStep
+2088,BLOCK2:CLOSET,Zone Infiltration Air Change Rate [ach] !TimeStep
+2089,BLOCK2:ZONE8,Zone Infiltration Sensible Heat Loss Energy [J] !TimeStep
+2090,BLOCK2:ZONE8,Zone Infiltration Sensible Heat Gain Energy [J] !TimeStep
+2091,BLOCK2:ZONE8,Zone Infiltration Air Change Rate [ach] !TimeStep
+2092,BLOCK2:ELEVATOR,Zone Infiltration Sensible Heat Loss Energy [J] !TimeStep
+2093,BLOCK2:ELEVATOR,Zone Infiltration Sensible Heat Gain Energy [J] !TimeStep
+2094,BLOCK2:ELEVATOR,Zone Infiltration Air Change Rate [ach] !TimeStep
+2095,BLOCK2:EQUIPTMENTRM.,Zone Infiltration Sensible Heat Loss Energy [J] !TimeStep
+2096,BLOCK2:EQUIPTMENTRM.,Zone Infiltration Sensible Heat Gain Energy [J] !TimeStep
+2097,BLOCK2:EQUIPTMENTRM.,Zone Infiltration Air Change Rate [ach] !TimeStep
+2098,BLOCK1:MAINAREA,Zone Infiltration Sensible Heat Loss Energy [J] !TimeStep
+2099,BLOCK1:MAINAREA,Zone Infiltration Sensible Heat Gain Energy [J] !TimeStep
+2100,BLOCK1:MAINAREA,Zone Infiltration Air Change Rate [ach] !TimeStep
+2101,1STFLOOR:STAIRS,Zone Ventilation Sensible Heat Loss Energy [J] !TimeStep
+2102,1STFLOOR:STAIRS,Zone Ventilation Sensible Heat Gain Energy [J] !TimeStep
+2103,1STFLOOR:STAIRS,Zone Ventilation Air Change Rate [ach] !TimeStep
+2135,1STFLOOR:TRASHROOM,Zone Ventilation Sensible Heat Loss Energy [J] !TimeStep
+2136,1STFLOOR:TRASHROOM,Zone Ventilation Sensible Heat Gain Energy [J] !TimeStep
+2137,1STFLOOR:TRASHROOM,Zone Ventilation Air Change Rate [ach] !TimeStep
+2149,1STFLOOR:STAFFRESTROOM,Zone Ventilation Sensible Heat Loss Energy [J] !TimeStep
+2150,1STFLOOR:STAFFRESTROOM,Zone Ventilation Sensible Heat Gain Energy [J] !TimeStep
+2151,1STFLOOR:STAFFRESTROOM,Zone Ventilation Air Change Rate [ach] !TimeStep
+2163,1STFLOOR:OPENOFFICE,Zone Ventilation Sensible Heat Loss Energy [J] !TimeStep
+2164,1STFLOOR:OPENOFFICE,Zone Ventilation Sensible Heat Gain Energy [J] !TimeStep
+2165,1STFLOOR:OPENOFFICE,Zone Ventilation Air Change Rate [ach] !TimeStep
+2177,1STFLOOR:OFFICE111,Zone Ventilation Sensible Heat Loss Energy [J] !TimeStep
+2178,1STFLOOR:OFFICE111,Zone Ventilation Sensible Heat Gain Energy [J] !TimeStep
+2179,1STFLOOR:OFFICE111,Zone Ventilation Air Change Rate [ach] !TimeStep
+2191,1STFLOOR:TANK,Zone Ventilation Sensible Heat Loss Energy [J] !TimeStep
+2192,1STFLOOR:TANK,Zone Ventilation Sensible Heat Gain Energy [J] !TimeStep
+2193,1STFLOOR:TANK,Zone Ventilation Air Change Rate [ach] !TimeStep
+2205,1STFLOOR:PUMPROOM,Zone Ventilation Sensible Heat Loss Energy [J] !TimeStep
+2206,1STFLOOR:PUMPROOM,Zone Ventilation Sensible Heat Gain Energy [J] !TimeStep
+2207,1STFLOOR:PUMPROOM,Zone Ventilation Air Change Rate [ach] !TimeStep
+2219,1STFLOOR:LOBBY,Zone Ventilation Sensible Heat Loss Energy [J] !TimeStep
+2220,1STFLOOR:LOBBY,Zone Ventilation Sensible Heat Gain Energy [J] !TimeStep
+2221,1STFLOOR:LOBBY,Zone Ventilation Air Change Rate [ach] !TimeStep
+2233,1STFLOOR:PREPROOM,Zone Ventilation Sensible Heat Loss Energy [J] !TimeStep
+2234,1STFLOOR:PREPROOM,Zone Ventilation Sensible Heat Gain Energy [J] !TimeStep
+2235,1STFLOOR:PREPROOM,Zone Ventilation Air Change Rate [ach] !TimeStep
+2247,1STFLOOR:KITCHEN,Zone Ventilation Sensible Heat Loss Energy [J] !TimeStep
+2248,1STFLOOR:KITCHEN,Zone Ventilation Sensible Heat Gain Energy [J] !TimeStep
+2249,1STFLOOR:KITCHEN,Zone Ventilation Air Change Rate [ach] !TimeStep
+2261,1STFLOOR:VESTIBULE,Zone Ventilation Sensible Heat Loss Energy [J] !TimeStep
+2262,1STFLOOR:VESTIBULE,Zone Ventilation Sensible Heat Gain Energy [J] !TimeStep
+2263,1STFLOOR:VESTIBULE,Zone Ventilation Air Change Rate [ach] !TimeStep
+2275,1STFLOOR:ELEC.,Zone Ventilation Sensible Heat Loss Energy [J] !TimeStep
+2276,1STFLOOR:ELEC.,Zone Ventilation Sensible Heat Gain Energy [J] !TimeStep
+2277,1STFLOOR:ELEC.,Zone Ventilation Air Change Rate [ach] !TimeStep
+2289,1STFLOOR:JANITOR,Zone Ventilation Sensible Heat Loss Energy [J] !TimeStep
+2290,1STFLOOR:JANITOR,Zone Ventilation Sensible Heat Gain Energy [J] !TimeStep
+2291,1STFLOOR:JANITOR,Zone Ventilation Air Change Rate [ach] !TimeStep
+2303,1STFLOOR:MEN%SRESTROOM,Zone Ventilation Sensible Heat Loss Energy [J] !TimeStep
+2304,1STFLOOR:MEN%SRESTROOM,Zone Ventilation Sensible Heat Gain Energy [J] !TimeStep
+2305,1STFLOOR:MEN%SRESTROOM,Zone Ventilation Air Change Rate [ach] !TimeStep
+2317,1STFLOOR:LOBBY1,Zone Ventilation Sensible Heat Loss Energy [J] !TimeStep
+2318,1STFLOOR:LOBBY1,Zone Ventilation Sensible Heat Gain Energy [J] !TimeStep
+2319,1STFLOOR:LOBBY1,Zone Ventilation Air Change Rate [ach] !TimeStep
+2331,1STFLOOR:STORAGE,Zone Ventilation Sensible Heat Loss Energy [J] !TimeStep
+2332,1STFLOOR:STORAGE,Zone Ventilation Sensible Heat Gain Energy [J] !TimeStep
+2333,1STFLOOR:STORAGE,Zone Ventilation Air Change Rate [ach] !TimeStep
+2345,1STFLOOR:ELEV.CLOSET,Zone Ventilation Sensible Heat Loss Energy [J] !TimeStep
+2346,1STFLOOR:ELEV.CLOSET,Zone Ventilation Sensible Heat Gain Energy [J] !TimeStep
+2347,1STFLOOR:ELEV.CLOSET,Zone Ventilation Air Change Rate [ach] !TimeStep
+2359,1STFLOOR:ELEVATOR,Zone Ventilation Sensible Heat Loss Energy [J] !TimeStep
+2360,1STFLOOR:ELEVATOR,Zone Ventilation Sensible Heat Gain Energy [J] !TimeStep
+2361,1STFLOOR:ELEVATOR,Zone Ventilation Air Change Rate [ach] !TimeStep
+2373,1STFLOOR:OFFICE,Zone Ventilation Sensible Heat Loss Energy [J] !TimeStep
+2374,1STFLOOR:OFFICE,Zone Ventilation Sensible Heat Gain Energy [J] !TimeStep
+2375,1STFLOOR:OFFICE,Zone Ventilation Air Change Rate [ach] !TimeStep
+2387,1STFLOOR:WOMEN%SRESTROOM,Zone Ventilation Sensible Heat Loss Energy [J] !TimeStep
+2388,1STFLOOR:WOMEN%SRESTROOM,Zone Ventilation Sensible Heat Gain Energy [J] !TimeStep
+2389,1STFLOOR:WOMEN%SRESTROOM,Zone Ventilation Air Change Rate [ach] !TimeStep
+2401,1STFLOOR:CLASSROOM,Zone Ventilation Sensible Heat Loss Energy [J] !TimeStep
+2402,1STFLOOR:CLASSROOM,Zone Ventilation Sensible Heat Gain Energy [J] !TimeStep
+2403,1STFLOOR:CLASSROOM,Zone Ventilation Air Change Rate [ach] !TimeStep
+2415,BLOCK2:STORGE,Zone Ventilation Sensible Heat Loss Energy [J] !TimeStep
+2416,BLOCK2:STORGE,Zone Ventilation Sensible Heat Gain Energy [J] !TimeStep
+2417,BLOCK2:STORGE,Zone Ventilation Air Change Rate [ach] !TimeStep
+2429,BLOCK2:MAINAREA,Zone Ventilation Sensible Heat Loss Energy [J] !TimeStep
+2430,BLOCK2:MAINAREA,Zone Ventilation Sensible Heat Gain Energy [J] !TimeStep
+2431,BLOCK2:MAINAREA,Zone Ventilation Air Change Rate [ach] !TimeStep
+2443,BLOCK2:AQUARIUM,Zone Ventilation Sensible Heat Loss Energy [J] !TimeStep
+2444,BLOCK2:AQUARIUM,Zone Ventilation Sensible Heat Gain Energy [J] !TimeStep
+2445,BLOCK2:AQUARIUM,Zone Ventilation Air Change Rate [ach] !TimeStep
+2457,BLOCK2:ELEVATOR1,Zone Ventilation Sensible Heat Loss Energy [J] !TimeStep
+2458,BLOCK2:ELEVATOR1,Zone Ventilation Sensible Heat Gain Energy [J] !TimeStep
+2459,BLOCK2:ELEVATOR1,Zone Ventilation Air Change Rate [ach] !TimeStep
+2471,BLOCK2:VESTIBULE,Zone Ventilation Sensible Heat Loss Energy [J] !TimeStep
+2472,BLOCK2:VESTIBULE,Zone Ventilation Sensible Heat Gain Energy [J] !TimeStep
+2473,BLOCK2:VESTIBULE,Zone Ventilation Air Change Rate [ach] !TimeStep
+2485,BLOCK2:MECH.,Zone Ventilation Sensible Heat Loss Energy [J] !TimeStep
+2486,BLOCK2:MECH.,Zone Ventilation Sensible Heat Gain Energy [J] !TimeStep
+2487,BLOCK2:MECH.,Zone Ventilation Air Change Rate [ach] !TimeStep
+2499,BLOCK2:THEATER,Zone Ventilation Sensible Heat Loss Energy [J] !TimeStep
+2500,BLOCK2:THEATER,Zone Ventilation Sensible Heat Gain Energy [J] !TimeStep
+2501,BLOCK2:THEATER,Zone Ventilation Air Change Rate [ach] !TimeStep
+2513,BLOCK2:CLOSET,Zone Ventilation Sensible Heat Loss Energy [J] !TimeStep
+2514,BLOCK2:CLOSET,Zone Ventilation Sensible Heat Gain Energy [J] !TimeStep
+2515,BLOCK2:CLOSET,Zone Ventilation Air Change Rate [ach] !TimeStep
+2527,BLOCK2:ZONE8,Zone Ventilation Sensible Heat Loss Energy [J] !TimeStep
+2528,BLOCK2:ZONE8,Zone Ventilation Sensible Heat Gain Energy [J] !TimeStep
+2529,BLOCK2:ZONE8,Zone Ventilation Air Change Rate [ach] !TimeStep
+2541,BLOCK2:ELEVATOR,Zone Ventilation Sensible Heat Loss Energy [J] !TimeStep
+2542,BLOCK2:ELEVATOR,Zone Ventilation Sensible Heat Gain Energy [J] !TimeStep
+2543,BLOCK2:ELEVATOR,Zone Ventilation Air Change Rate [ach] !TimeStep
+2555,BLOCK2:EQUIPTMENTRM.,Zone Ventilation Sensible Heat Loss Energy [J] !TimeStep
+2556,BLOCK2:EQUIPTMENTRM.,Zone Ventilation Sensible Heat Gain Energy [J] !TimeStep
+2557,BLOCK2:EQUIPTMENTRM.,Zone Ventilation Air Change Rate [ach] !TimeStep
+2569,BLOCK1:MAINAREA,Zone Ventilation Sensible Heat Loss Energy [J] !TimeStep
+2570,BLOCK1:MAINAREA,Zone Ventilation Sensible Heat Gain Energy [J] !TimeStep
+2571,BLOCK1:MAINAREA,Zone Ventilation Air Change Rate [ach] !TimeStep
+2655,1STFLOOR:STAIRS,Zone Air System Sensible Heating Rate [W] !TimeStep
+2656,1STFLOOR:STAIRS,Zone Air System Sensible Cooling Rate [W] !TimeStep
+2657,1STFLOOR:STAIRS,Zone Air Relative Humidity [%] !TimeStep
+2690,1STFLOOR:TRASHROOM,Zone Air System Sensible Heating Rate [W] !TimeStep
+2691,1STFLOOR:TRASHROOM,Zone Air System Sensible Cooling Rate [W] !TimeStep
+2692,1STFLOOR:TRASHROOM,Zone Air Relative Humidity [%] !TimeStep
+2725,1STFLOOR:STAFFRESTROOM,Zone Air System Sensible Heating Rate [W] !TimeStep
+2726,1STFLOOR:STAFFRESTROOM,Zone Air System Sensible Cooling Rate [W] !TimeStep
+2727,1STFLOOR:STAFFRESTROOM,Zone Air Relative Humidity [%] !TimeStep
+2760,1STFLOOR:OPENOFFICE,Zone Air System Sensible Heating Rate [W] !TimeStep
+2761,1STFLOOR:OPENOFFICE,Zone Air System Sensible Cooling Rate [W] !TimeStep
+2762,1STFLOOR:OPENOFFICE,Zone Air Relative Humidity [%] !TimeStep
+2795,1STFLOOR:OFFICE111,Zone Air System Sensible Heating Rate [W] !TimeStep
+2796,1STFLOOR:OFFICE111,Zone Air System Sensible Cooling Rate [W] !TimeStep
+2797,1STFLOOR:OFFICE111,Zone Air Relative Humidity [%] !TimeStep
+2830,1STFLOOR:TANK,Zone Air System Sensible Heating Rate [W] !TimeStep
+2831,1STFLOOR:TANK,Zone Air System Sensible Cooling Rate [W] !TimeStep
+2832,1STFLOOR:TANK,Zone Air Relative Humidity [%] !TimeStep
+2865,1STFLOOR:PUMPROOM,Zone Air System Sensible Heating Rate [W] !TimeStep
+2866,1STFLOOR:PUMPROOM,Zone Air System Sensible Cooling Rate [W] !TimeStep
+2867,1STFLOOR:PUMPROOM,Zone Air Relative Humidity [%] !TimeStep
+2900,1STFLOOR:LOBBY,Zone Air System Sensible Heating Rate [W] !TimeStep
+2901,1STFLOOR:LOBBY,Zone Air System Sensible Cooling Rate [W] !TimeStep
+2902,1STFLOOR:LOBBY,Zone Air Relative Humidity [%] !TimeStep
+2935,1STFLOOR:PREPROOM,Zone Air System Sensible Heating Rate [W] !TimeStep
+2936,1STFLOOR:PREPROOM,Zone Air System Sensible Cooling Rate [W] !TimeStep
+2937,1STFLOOR:PREPROOM,Zone Air Relative Humidity [%] !TimeStep
+2970,1STFLOOR:KITCHEN,Zone Air System Sensible Heating Rate [W] !TimeStep
+2971,1STFLOOR:KITCHEN,Zone Air System Sensible Cooling Rate [W] !TimeStep
+2972,1STFLOOR:KITCHEN,Zone Air Relative Humidity [%] !TimeStep
+3005,1STFLOOR:VESTIBULE,Zone Air System Sensible Heating Rate [W] !TimeStep
+3006,1STFLOOR:VESTIBULE,Zone Air System Sensible Cooling Rate [W] !TimeStep
+3007,1STFLOOR:VESTIBULE,Zone Air Relative Humidity [%] !TimeStep
+3040,1STFLOOR:ELEC.,Zone Air System Sensible Heating Rate [W] !TimeStep
+3041,1STFLOOR:ELEC.,Zone Air System Sensible Cooling Rate [W] !TimeStep
+3042,1STFLOOR:ELEC.,Zone Air Relative Humidity [%] !TimeStep
+3075,1STFLOOR:JANITOR,Zone Air System Sensible Heating Rate [W] !TimeStep
+3076,1STFLOOR:JANITOR,Zone Air System Sensible Cooling Rate [W] !TimeStep
+3077,1STFLOOR:JANITOR,Zone Air Relative Humidity [%] !TimeStep
+3110,1STFLOOR:MEN%SRESTROOM,Zone Air System Sensible Heating Rate [W] !TimeStep
+3111,1STFLOOR:MEN%SRESTROOM,Zone Air System Sensible Cooling Rate [W] !TimeStep
+3112,1STFLOOR:MEN%SRESTROOM,Zone Air Relative Humidity [%] !TimeStep
+3145,1STFLOOR:LOBBY1,Zone Air System Sensible Heating Rate [W] !TimeStep
+3146,1STFLOOR:LOBBY1,Zone Air System Sensible Cooling Rate [W] !TimeStep
+3147,1STFLOOR:LOBBY1,Zone Air Relative Humidity [%] !TimeStep
+3180,1STFLOOR:STORAGE,Zone Air System Sensible Heating Rate [W] !TimeStep
+3181,1STFLOOR:STORAGE,Zone Air System Sensible Cooling Rate [W] !TimeStep
+3182,1STFLOOR:STORAGE,Zone Air Relative Humidity [%] !TimeStep
+3215,1STFLOOR:ELEV.CLOSET,Zone Air System Sensible Heating Rate [W] !TimeStep
+3216,1STFLOOR:ELEV.CLOSET,Zone Air System Sensible Cooling Rate [W] !TimeStep
+3217,1STFLOOR:ELEV.CLOSET,Zone Air Relative Humidity [%] !TimeStep
+3250,1STFLOOR:ELEVATOR,Zone Air System Sensible Heating Rate [W] !TimeStep
+3251,1STFLOOR:ELEVATOR,Zone Air System Sensible Cooling Rate [W] !TimeStep
+3252,1STFLOOR:ELEVATOR,Zone Air Relative Humidity [%] !TimeStep
+3285,1STFLOOR:OFFICE,Zone Air System Sensible Heating Rate [W] !TimeStep
+3286,1STFLOOR:OFFICE,Zone Air System Sensible Cooling Rate [W] !TimeStep
+3287,1STFLOOR:OFFICE,Zone Air Relative Humidity [%] !TimeStep
+3320,1STFLOOR:WOMEN%SRESTROOM,Zone Air System Sensible Heating Rate [W] !TimeStep
+3321,1STFLOOR:WOMEN%SRESTROOM,Zone Air System Sensible Cooling Rate [W] !TimeStep
+3322,1STFLOOR:WOMEN%SRESTROOM,Zone Air Relative Humidity [%] !TimeStep
+3355,1STFLOOR:CLASSROOM,Zone Air System Sensible Heating Rate [W] !TimeStep
+3356,1STFLOOR:CLASSROOM,Zone Air System Sensible Cooling Rate [W] !TimeStep
+3357,1STFLOOR:CLASSROOM,Zone Air Relative Humidity [%] !TimeStep
+3390,BLOCK2:STORGE,Zone Air System Sensible Heating Rate [W] !TimeStep
+3391,BLOCK2:STORGE,Zone Air System Sensible Cooling Rate [W] !TimeStep
+3392,BLOCK2:STORGE,Zone Air Relative Humidity [%] !TimeStep
+3425,BLOCK2:MAINAREA,Zone Air System Sensible Heating Rate [W] !TimeStep
+3426,BLOCK2:MAINAREA,Zone Air System Sensible Cooling Rate [W] !TimeStep
+3427,BLOCK2:MAINAREA,Zone Air Relative Humidity [%] !TimeStep
+3460,BLOCK2:AQUARIUM,Zone Air System Sensible Heating Rate [W] !TimeStep
+3461,BLOCK2:AQUARIUM,Zone Air System Sensible Cooling Rate [W] !TimeStep
+3462,BLOCK2:AQUARIUM,Zone Air Relative Humidity [%] !TimeStep
+3495,BLOCK2:ELEVATOR1,Zone Air System Sensible Heating Rate [W] !TimeStep
+3496,BLOCK2:ELEVATOR1,Zone Air System Sensible Cooling Rate [W] !TimeStep
+3497,BLOCK2:ELEVATOR1,Zone Air Relative Humidity [%] !TimeStep
+3530,BLOCK2:VESTIBULE,Zone Air System Sensible Heating Rate [W] !TimeStep
+3531,BLOCK2:VESTIBULE,Zone Air System Sensible Cooling Rate [W] !TimeStep
+3532,BLOCK2:VESTIBULE,Zone Air Relative Humidity [%] !TimeStep
+3565,BLOCK2:MECH.,Zone Air System Sensible Heating Rate [W] !TimeStep
+3566,BLOCK2:MECH.,Zone Air System Sensible Cooling Rate [W] !TimeStep
+3567,BLOCK2:MECH.,Zone Air Relative Humidity [%] !TimeStep
+3600,BLOCK2:THEATER,Zone Air System Sensible Heating Rate [W] !TimeStep
+3601,BLOCK2:THEATER,Zone Air System Sensible Cooling Rate [W] !TimeStep
+3602,BLOCK2:THEATER,Zone Air Relative Humidity [%] !TimeStep
+3635,BLOCK2:CLOSET,Zone Air System Sensible Heating Rate [W] !TimeStep
+3636,BLOCK2:CLOSET,Zone Air System Sensible Cooling Rate [W] !TimeStep
+3637,BLOCK2:CLOSET,Zone Air Relative Humidity [%] !TimeStep
+3670,BLOCK2:ZONE8,Zone Air System Sensible Heating Rate [W] !TimeStep
+3671,BLOCK2:ZONE8,Zone Air System Sensible Cooling Rate [W] !TimeStep
+3672,BLOCK2:ZONE8,Zone Air Relative Humidity [%] !TimeStep
+3705,BLOCK2:ELEVATOR,Zone Air System Sensible Heating Rate [W] !TimeStep
+3706,BLOCK2:ELEVATOR,Zone Air System Sensible Cooling Rate [W] !TimeStep
+3707,BLOCK2:ELEVATOR,Zone Air Relative Humidity [%] !TimeStep
+3740,BLOCK2:EQUIPTMENTRM.,Zone Air System Sensible Heating Rate [W] !TimeStep
+3741,BLOCK2:EQUIPTMENTRM.,Zone Air System Sensible Cooling Rate [W] !TimeStep
+3742,BLOCK2:EQUIPTMENTRM.,Zone Air Relative Humidity [%] !TimeStep
+3775,BLOCK1:MAINAREA,Zone Air System Sensible Heating Rate [W] !TimeStep
+3776,BLOCK1:MAINAREA,Zone Air System Sensible Cooling Rate [W] !TimeStep
+3777,BLOCK1:MAINAREA,Zone Air Relative Humidity [%] !TimeStep
+3860,DHW 1STFLOOR:STAIRS,Water Use Equipment Heating Rate [W] !TimeStep
+3924,DHW 1STFLOOR:TRASHROOM,Water Use Equipment Heating Rate [W] !TimeStep
+3958,DHW 1STFLOOR:STAFFRESTROOM,Water Use Equipment Heating Rate [W] !TimeStep
+3992,DHW 1STFLOOR:OPENOFFICE,Water Use Equipment Heating Rate [W] !TimeStep
+4026,DHW 1STFLOOR:OFFICE111,Water Use Equipment Heating Rate [W] !TimeStep
+4060,DHW 1STFLOOR:TANK,Water Use Equipment Heating Rate [W] !TimeStep
+4094,DHW 1STFLOOR:PUMPROOM,Water Use Equipment Heating Rate [W] !TimeStep
+4128,DHW 1STFLOOR:LOBBY,Water Use Equipment Heating Rate [W] !TimeStep
+4162,DHW 1STFLOOR:PREPROOM,Water Use Equipment Heating Rate [W] !TimeStep
+4196,DHW 1STFLOOR:KITCHEN,Water Use Equipment Heating Rate [W] !TimeStep
+4230,DHW 1STFLOOR:VESTIBULE,Water Use Equipment Heating Rate [W] !TimeStep
+4264,DHW 1STFLOOR:ELEC.,Water Use Equipment Heating Rate [W] !TimeStep
+4298,DHW 1STFLOOR:JANITOR,Water Use Equipment Heating Rate [W] !TimeStep
+4332,DHW 1STFLOOR:MEN%SRESTROOM,Water Use Equipment Heating Rate [W] !TimeStep
+4366,DHW 1STFLOOR:LOBBY1,Water Use Equipment Heating Rate [W] !TimeStep
+4400,DHW 1STFLOOR:STORAGE,Water Use Equipment Heating Rate [W] !TimeStep
+4434,DHW 1STFLOOR:ELEV.CLOSET,Water Use Equipment Heating Rate [W] !TimeStep
+4468,DHW 1STFLOOR:ELEVATOR,Water Use Equipment Heating Rate [W] !TimeStep
+4502,DHW 1STFLOOR:OFFICE,Water Use Equipment Heating Rate [W] !TimeStep
+4536,DHW 1STFLOOR:WOMEN%SRESTROOM,Water Use Equipment Heating Rate [W] !TimeStep
+4570,DHW 1STFLOOR:CLASSROOM,Water Use Equipment Heating Rate [W] !TimeStep
+4604,DHW BLOCK2:STORGE,Water Use Equipment Heating Rate [W] !TimeStep
+4638,DHW BLOCK2:MAINAREA,Water Use Equipment Heating Rate [W] !TimeStep
+4672,DHW BLOCK2:AQUARIUM,Water Use Equipment Heating Rate [W] !TimeStep
+4706,DHW BLOCK2:ELEVATOR1,Water Use Equipment Heating Rate [W] !TimeStep
+4740,DHW BLOCK2:VESTIBULE,Water Use Equipment Heating Rate [W] !TimeStep
+4774,DHW BLOCK2:MECH.,Water Use Equipment Heating Rate [W] !TimeStep
+4808,DHW BLOCK2:THEATER,Water Use Equipment Heating Rate [W] !TimeStep
+4842,DHW BLOCK2:CLOSET,Water Use Equipment Heating Rate [W] !TimeStep
+4876,DHW BLOCK2:ZONE8,Water Use Equipment Heating Rate [W] !TimeStep
+4910,DHW BLOCK2:ELEVATOR,Water Use Equipment Heating Rate [W] !TimeStep
+4944,DHW BLOCK2:EQUIPTMENTRM.,Water Use Equipment Heating Rate [W] !TimeStep
+4978,DHW BLOCK1:MAINAREA,Water Use Equipment Heating Rate [W] !TimeStep
+5135,1STFLOOR:STAIRS IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Heating Rate [W] !TimeStep
+5136,1STFLOOR:STAIRS IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Heating Rate [W] !TimeStep
+5137,1STFLOOR:STAIRS IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Cooling Rate [W] !TimeStep
+5138,1STFLOOR:STAIRS IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Cooling Rate [W] !TimeStep
+5139,1STFLOOR:STAIRS IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Heating Rate [W] !TimeStep
+5140,1STFLOOR:STAIRS IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Heating Rate [W] !TimeStep
+5141,1STFLOOR:STAIRS IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Cooling Rate [W] !TimeStep
+5142,1STFLOOR:STAIRS IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Cooling Rate [W] !TimeStep
+5145,1STFLOOR:TRASHROOM IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Heating Rate [W] !TimeStep
+5146,1STFLOOR:TRASHROOM IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Heating Rate [W] !TimeStep
+5147,1STFLOOR:TRASHROOM IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Cooling Rate [W] !TimeStep
+5148,1STFLOOR:TRASHROOM IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Cooling Rate [W] !TimeStep
+5149,1STFLOOR:TRASHROOM IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Heating Rate [W] !TimeStep
+5150,1STFLOOR:TRASHROOM IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Heating Rate [W] !TimeStep
+5151,1STFLOOR:TRASHROOM IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Cooling Rate [W] !TimeStep
+5152,1STFLOOR:TRASHROOM IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Cooling Rate [W] !TimeStep
+5155,1STFLOOR:STAFFRESTROOM IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Heating Rate [W] !TimeStep
+5156,1STFLOOR:STAFFRESTROOM IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Heating Rate [W] !TimeStep
+5157,1STFLOOR:STAFFRESTROOM IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Cooling Rate [W] !TimeStep
+5158,1STFLOOR:STAFFRESTROOM IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Cooling Rate [W] !TimeStep
+5159,1STFLOOR:STAFFRESTROOM IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Heating Rate [W] !TimeStep
+5160,1STFLOOR:STAFFRESTROOM IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Heating Rate [W] !TimeStep
+5161,1STFLOOR:STAFFRESTROOM IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Cooling Rate [W] !TimeStep
+5162,1STFLOOR:STAFFRESTROOM IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Cooling Rate [W] !TimeStep
+5165,1STFLOOR:OPENOFFICE IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Heating Rate [W] !TimeStep
+5166,1STFLOOR:OPENOFFICE IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Heating Rate [W] !TimeStep
+5167,1STFLOOR:OPENOFFICE IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Cooling Rate [W] !TimeStep
+5168,1STFLOOR:OPENOFFICE IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Cooling Rate [W] !TimeStep
+5169,1STFLOOR:OPENOFFICE IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Heating Rate [W] !TimeStep
+5170,1STFLOOR:OPENOFFICE IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Heating Rate [W] !TimeStep
+5171,1STFLOOR:OPENOFFICE IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Cooling Rate [W] !TimeStep
+5172,1STFLOOR:OPENOFFICE IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Cooling Rate [W] !TimeStep
+5175,1STFLOOR:OFFICE111 IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Heating Rate [W] !TimeStep
+5176,1STFLOOR:OFFICE111 IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Heating Rate [W] !TimeStep
+5177,1STFLOOR:OFFICE111 IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Cooling Rate [W] !TimeStep
+5178,1STFLOOR:OFFICE111 IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Cooling Rate [W] !TimeStep
+5179,1STFLOOR:OFFICE111 IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Heating Rate [W] !TimeStep
+5180,1STFLOOR:OFFICE111 IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Heating Rate [W] !TimeStep
+5181,1STFLOOR:OFFICE111 IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Cooling Rate [W] !TimeStep
+5182,1STFLOOR:OFFICE111 IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Cooling Rate [W] !TimeStep
+5185,1STFLOOR:TANK IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Heating Rate [W] !TimeStep
+5186,1STFLOOR:TANK IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Heating Rate [W] !TimeStep
+5187,1STFLOOR:TANK IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Cooling Rate [W] !TimeStep
+5188,1STFLOOR:TANK IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Cooling Rate [W] !TimeStep
+5189,1STFLOOR:TANK IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Heating Rate [W] !TimeStep
+5190,1STFLOOR:TANK IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Heating Rate [W] !TimeStep
+5191,1STFLOOR:TANK IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Cooling Rate [W] !TimeStep
+5192,1STFLOOR:TANK IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Cooling Rate [W] !TimeStep
+5195,1STFLOOR:PUMPROOM IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Heating Rate [W] !TimeStep
+5196,1STFLOOR:PUMPROOM IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Heating Rate [W] !TimeStep
+5197,1STFLOOR:PUMPROOM IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Cooling Rate [W] !TimeStep
+5198,1STFLOOR:PUMPROOM IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Cooling Rate [W] !TimeStep
+5199,1STFLOOR:PUMPROOM IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Heating Rate [W] !TimeStep
+5200,1STFLOOR:PUMPROOM IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Heating Rate [W] !TimeStep
+5201,1STFLOOR:PUMPROOM IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Cooling Rate [W] !TimeStep
+5202,1STFLOOR:PUMPROOM IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Cooling Rate [W] !TimeStep
+5205,1STFLOOR:LOBBY IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Heating Rate [W] !TimeStep
+5206,1STFLOOR:LOBBY IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Heating Rate [W] !TimeStep
+5207,1STFLOOR:LOBBY IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Cooling Rate [W] !TimeStep
+5208,1STFLOOR:LOBBY IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Cooling Rate [W] !TimeStep
+5209,1STFLOOR:LOBBY IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Heating Rate [W] !TimeStep
+5210,1STFLOOR:LOBBY IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Heating Rate [W] !TimeStep
+5211,1STFLOOR:LOBBY IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Cooling Rate [W] !TimeStep
+5212,1STFLOOR:LOBBY IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Cooling Rate [W] !TimeStep
+5215,1STFLOOR:PREPROOM IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Heating Rate [W] !TimeStep
+5216,1STFLOOR:PREPROOM IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Heating Rate [W] !TimeStep
+5217,1STFLOOR:PREPROOM IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Cooling Rate [W] !TimeStep
+5218,1STFLOOR:PREPROOM IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Cooling Rate [W] !TimeStep
+5219,1STFLOOR:PREPROOM IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Heating Rate [W] !TimeStep
+5220,1STFLOOR:PREPROOM IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Heating Rate [W] !TimeStep
+5221,1STFLOOR:PREPROOM IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Cooling Rate [W] !TimeStep
+5222,1STFLOOR:PREPROOM IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Cooling Rate [W] !TimeStep
+5225,1STFLOOR:KITCHEN IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Heating Rate [W] !TimeStep
+5226,1STFLOOR:KITCHEN IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Heating Rate [W] !TimeStep
+5227,1STFLOOR:KITCHEN IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Cooling Rate [W] !TimeStep
+5228,1STFLOOR:KITCHEN IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Cooling Rate [W] !TimeStep
+5229,1STFLOOR:KITCHEN IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Heating Rate [W] !TimeStep
+5230,1STFLOOR:KITCHEN IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Heating Rate [W] !TimeStep
+5231,1STFLOOR:KITCHEN IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Cooling Rate [W] !TimeStep
+5232,1STFLOOR:KITCHEN IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Cooling Rate [W] !TimeStep
+5235,1STFLOOR:VESTIBULE IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Heating Rate [W] !TimeStep
+5236,1STFLOOR:VESTIBULE IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Heating Rate [W] !TimeStep
+5237,1STFLOOR:VESTIBULE IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Cooling Rate [W] !TimeStep
+5238,1STFLOOR:VESTIBULE IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Cooling Rate [W] !TimeStep
+5239,1STFLOOR:VESTIBULE IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Heating Rate [W] !TimeStep
+5240,1STFLOOR:VESTIBULE IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Heating Rate [W] !TimeStep
+5241,1STFLOOR:VESTIBULE IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Cooling Rate [W] !TimeStep
+5242,1STFLOOR:VESTIBULE IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Cooling Rate [W] !TimeStep
+5245,1STFLOOR:ELEC. IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Heating Rate [W] !TimeStep
+5246,1STFLOOR:ELEC. IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Heating Rate [W] !TimeStep
+5247,1STFLOOR:ELEC. IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Cooling Rate [W] !TimeStep
+5248,1STFLOOR:ELEC. IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Cooling Rate [W] !TimeStep
+5249,1STFLOOR:ELEC. IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Heating Rate [W] !TimeStep
+5250,1STFLOOR:ELEC. IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Heating Rate [W] !TimeStep
+5251,1STFLOOR:ELEC. IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Cooling Rate [W] !TimeStep
+5252,1STFLOOR:ELEC. IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Cooling Rate [W] !TimeStep
+5255,1STFLOOR:JANITOR IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Heating Rate [W] !TimeStep
+5256,1STFLOOR:JANITOR IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Heating Rate [W] !TimeStep
+5257,1STFLOOR:JANITOR IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Cooling Rate [W] !TimeStep
+5258,1STFLOOR:JANITOR IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Cooling Rate [W] !TimeStep
+5259,1STFLOOR:JANITOR IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Heating Rate [W] !TimeStep
+5260,1STFLOOR:JANITOR IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Heating Rate [W] !TimeStep
+5261,1STFLOOR:JANITOR IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Cooling Rate [W] !TimeStep
+5262,1STFLOOR:JANITOR IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Cooling Rate [W] !TimeStep
+5265,1STFLOOR:MEN%SRESTROOM IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Heating Rate [W] !TimeStep
+5266,1STFLOOR:MEN%SRESTROOM IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Heating Rate [W] !TimeStep
+5267,1STFLOOR:MEN%SRESTROOM IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Cooling Rate [W] !TimeStep
+5268,1STFLOOR:MEN%SRESTROOM IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Cooling Rate [W] !TimeStep
+5269,1STFLOOR:MEN%SRESTROOM IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Heating Rate [W] !TimeStep
+5270,1STFLOOR:MEN%SRESTROOM IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Heating Rate [W] !TimeStep
+5271,1STFLOOR:MEN%SRESTROOM IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Cooling Rate [W] !TimeStep
+5272,1STFLOOR:MEN%SRESTROOM IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Cooling Rate [W] !TimeStep
+5275,1STFLOOR:LOBBY1 IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Heating Rate [W] !TimeStep
+5276,1STFLOOR:LOBBY1 IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Heating Rate [W] !TimeStep
+5277,1STFLOOR:LOBBY1 IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Cooling Rate [W] !TimeStep
+5278,1STFLOOR:LOBBY1 IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Cooling Rate [W] !TimeStep
+5279,1STFLOOR:LOBBY1 IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Heating Rate [W] !TimeStep
+5280,1STFLOOR:LOBBY1 IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Heating Rate [W] !TimeStep
+5281,1STFLOOR:LOBBY1 IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Cooling Rate [W] !TimeStep
+5282,1STFLOOR:LOBBY1 IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Cooling Rate [W] !TimeStep
+5285,1STFLOOR:STORAGE IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Heating Rate [W] !TimeStep
+5286,1STFLOOR:STORAGE IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Heating Rate [W] !TimeStep
+5287,1STFLOOR:STORAGE IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Cooling Rate [W] !TimeStep
+5288,1STFLOOR:STORAGE IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Cooling Rate [W] !TimeStep
+5289,1STFLOOR:STORAGE IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Heating Rate [W] !TimeStep
+5290,1STFLOOR:STORAGE IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Heating Rate [W] !TimeStep
+5291,1STFLOOR:STORAGE IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Cooling Rate [W] !TimeStep
+5292,1STFLOOR:STORAGE IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Cooling Rate [W] !TimeStep
+5295,1STFLOOR:ELEV.CLOSET IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Heating Rate [W] !TimeStep
+5296,1STFLOOR:ELEV.CLOSET IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Heating Rate [W] !TimeStep
+5297,1STFLOOR:ELEV.CLOSET IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Cooling Rate [W] !TimeStep
+5298,1STFLOOR:ELEV.CLOSET IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Cooling Rate [W] !TimeStep
+5299,1STFLOOR:ELEV.CLOSET IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Heating Rate [W] !TimeStep
+5300,1STFLOOR:ELEV.CLOSET IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Heating Rate [W] !TimeStep
+5301,1STFLOOR:ELEV.CLOSET IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Cooling Rate [W] !TimeStep
+5302,1STFLOOR:ELEV.CLOSET IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Cooling Rate [W] !TimeStep
+5305,1STFLOOR:ELEVATOR IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Heating Rate [W] !TimeStep
+5306,1STFLOOR:ELEVATOR IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Heating Rate [W] !TimeStep
+5307,1STFLOOR:ELEVATOR IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Cooling Rate [W] !TimeStep
+5308,1STFLOOR:ELEVATOR IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Cooling Rate [W] !TimeStep
+5309,1STFLOOR:ELEVATOR IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Heating Rate [W] !TimeStep
+5310,1STFLOOR:ELEVATOR IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Heating Rate [W] !TimeStep
+5311,1STFLOOR:ELEVATOR IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Cooling Rate [W] !TimeStep
+5312,1STFLOOR:ELEVATOR IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Cooling Rate [W] !TimeStep
+5315,1STFLOOR:OFFICE IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Heating Rate [W] !TimeStep
+5316,1STFLOOR:OFFICE IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Heating Rate [W] !TimeStep
+5317,1STFLOOR:OFFICE IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Cooling Rate [W] !TimeStep
+5318,1STFLOOR:OFFICE IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Cooling Rate [W] !TimeStep
+5319,1STFLOOR:OFFICE IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Heating Rate [W] !TimeStep
+5320,1STFLOOR:OFFICE IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Heating Rate [W] !TimeStep
+5321,1STFLOOR:OFFICE IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Cooling Rate [W] !TimeStep
+5322,1STFLOOR:OFFICE IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Cooling Rate [W] !TimeStep
+5325,1STFLOOR:WOMEN%SRESTROOM IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Heating Rate [W] !TimeStep
+5326,1STFLOOR:WOMEN%SRESTROOM IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Heating Rate [W] !TimeStep
+5327,1STFLOOR:WOMEN%SRESTROOM IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Cooling Rate [W] !TimeStep
+5328,1STFLOOR:WOMEN%SRESTROOM IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Cooling Rate [W] !TimeStep
+5329,1STFLOOR:WOMEN%SRESTROOM IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Heating Rate [W] !TimeStep
+5330,1STFLOOR:WOMEN%SRESTROOM IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Heating Rate [W] !TimeStep
+5331,1STFLOOR:WOMEN%SRESTROOM IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Cooling Rate [W] !TimeStep
+5332,1STFLOOR:WOMEN%SRESTROOM IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Cooling Rate [W] !TimeStep
+5335,1STFLOOR:CLASSROOM IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Heating Rate [W] !TimeStep
+5336,1STFLOOR:CLASSROOM IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Heating Rate [W] !TimeStep
+5337,1STFLOOR:CLASSROOM IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Cooling Rate [W] !TimeStep
+5338,1STFLOOR:CLASSROOM IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Cooling Rate [W] !TimeStep
+5339,1STFLOOR:CLASSROOM IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Heating Rate [W] !TimeStep
+5340,1STFLOOR:CLASSROOM IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Heating Rate [W] !TimeStep
+5341,1STFLOOR:CLASSROOM IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Cooling Rate [W] !TimeStep
+5342,1STFLOOR:CLASSROOM IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Cooling Rate [W] !TimeStep
+5345,BLOCK2:STORGE IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Heating Rate [W] !TimeStep
+5346,BLOCK2:STORGE IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Heating Rate [W] !TimeStep
+5347,BLOCK2:STORGE IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Cooling Rate [W] !TimeStep
+5348,BLOCK2:STORGE IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Cooling Rate [W] !TimeStep
+5349,BLOCK2:STORGE IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Heating Rate [W] !TimeStep
+5350,BLOCK2:STORGE IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Heating Rate [W] !TimeStep
+5351,BLOCK2:STORGE IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Cooling Rate [W] !TimeStep
+5352,BLOCK2:STORGE IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Cooling Rate [W] !TimeStep
+5355,BLOCK2:MAINAREA IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Heating Rate [W] !TimeStep
+5356,BLOCK2:MAINAREA IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Heating Rate [W] !TimeStep
+5357,BLOCK2:MAINAREA IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Cooling Rate [W] !TimeStep
+5358,BLOCK2:MAINAREA IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Cooling Rate [W] !TimeStep
+5359,BLOCK2:MAINAREA IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Heating Rate [W] !TimeStep
+5360,BLOCK2:MAINAREA IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Heating Rate [W] !TimeStep
+5361,BLOCK2:MAINAREA IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Cooling Rate [W] !TimeStep
+5362,BLOCK2:MAINAREA IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Cooling Rate [W] !TimeStep
+5365,BLOCK2:AQUARIUM IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Heating Rate [W] !TimeStep
+5366,BLOCK2:AQUARIUM IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Heating Rate [W] !TimeStep
+5367,BLOCK2:AQUARIUM IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Cooling Rate [W] !TimeStep
+5368,BLOCK2:AQUARIUM IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Cooling Rate [W] !TimeStep
+5369,BLOCK2:AQUARIUM IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Heating Rate [W] !TimeStep
+5370,BLOCK2:AQUARIUM IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Heating Rate [W] !TimeStep
+5371,BLOCK2:AQUARIUM IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Cooling Rate [W] !TimeStep
+5372,BLOCK2:AQUARIUM IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Cooling Rate [W] !TimeStep
+5375,BLOCK2:ELEVATOR1 IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Heating Rate [W] !TimeStep
+5376,BLOCK2:ELEVATOR1 IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Heating Rate [W] !TimeStep
+5377,BLOCK2:ELEVATOR1 IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Cooling Rate [W] !TimeStep
+5378,BLOCK2:ELEVATOR1 IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Cooling Rate [W] !TimeStep
+5379,BLOCK2:ELEVATOR1 IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Heating Rate [W] !TimeStep
+5380,BLOCK2:ELEVATOR1 IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Heating Rate [W] !TimeStep
+5381,BLOCK2:ELEVATOR1 IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Cooling Rate [W] !TimeStep
+5382,BLOCK2:ELEVATOR1 IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Cooling Rate [W] !TimeStep
+5385,BLOCK2:VESTIBULE IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Heating Rate [W] !TimeStep
+5386,BLOCK2:VESTIBULE IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Heating Rate [W] !TimeStep
+5387,BLOCK2:VESTIBULE IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Cooling Rate [W] !TimeStep
+5388,BLOCK2:VESTIBULE IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Cooling Rate [W] !TimeStep
+5389,BLOCK2:VESTIBULE IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Heating Rate [W] !TimeStep
+5390,BLOCK2:VESTIBULE IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Heating Rate [W] !TimeStep
+5391,BLOCK2:VESTIBULE IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Cooling Rate [W] !TimeStep
+5392,BLOCK2:VESTIBULE IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Cooling Rate [W] !TimeStep
+5395,BLOCK2:MECH. IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Heating Rate [W] !TimeStep
+5396,BLOCK2:MECH. IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Heating Rate [W] !TimeStep
+5397,BLOCK2:MECH. IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Cooling Rate [W] !TimeStep
+5398,BLOCK2:MECH. IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Cooling Rate [W] !TimeStep
+5399,BLOCK2:MECH. IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Heating Rate [W] !TimeStep
+5400,BLOCK2:MECH. IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Heating Rate [W] !TimeStep
+5401,BLOCK2:MECH. IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Cooling Rate [W] !TimeStep
+5402,BLOCK2:MECH. IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Cooling Rate [W] !TimeStep
+5405,BLOCK2:THEATER IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Heating Rate [W] !TimeStep
+5406,BLOCK2:THEATER IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Heating Rate [W] !TimeStep
+5407,BLOCK2:THEATER IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Cooling Rate [W] !TimeStep
+5408,BLOCK2:THEATER IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Cooling Rate [W] !TimeStep
+5409,BLOCK2:THEATER IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Heating Rate [W] !TimeStep
+5410,BLOCK2:THEATER IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Heating Rate [W] !TimeStep
+5411,BLOCK2:THEATER IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Cooling Rate [W] !TimeStep
+5412,BLOCK2:THEATER IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Cooling Rate [W] !TimeStep
+5415,BLOCK2:CLOSET IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Heating Rate [W] !TimeStep
+5416,BLOCK2:CLOSET IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Heating Rate [W] !TimeStep
+5417,BLOCK2:CLOSET IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Cooling Rate [W] !TimeStep
+5418,BLOCK2:CLOSET IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Cooling Rate [W] !TimeStep
+5419,BLOCK2:CLOSET IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Heating Rate [W] !TimeStep
+5420,BLOCK2:CLOSET IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Heating Rate [W] !TimeStep
+5421,BLOCK2:CLOSET IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Cooling Rate [W] !TimeStep
+5422,BLOCK2:CLOSET IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Cooling Rate [W] !TimeStep
+5425,BLOCK2:ZONE8 IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Heating Rate [W] !TimeStep
+5426,BLOCK2:ZONE8 IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Heating Rate [W] !TimeStep
+5427,BLOCK2:ZONE8 IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Cooling Rate [W] !TimeStep
+5428,BLOCK2:ZONE8 IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Cooling Rate [W] !TimeStep
+5429,BLOCK2:ZONE8 IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Heating Rate [W] !TimeStep
+5430,BLOCK2:ZONE8 IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Heating Rate [W] !TimeStep
+5431,BLOCK2:ZONE8 IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Cooling Rate [W] !TimeStep
+5432,BLOCK2:ZONE8 IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Cooling Rate [W] !TimeStep
+5435,BLOCK2:ELEVATOR IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Heating Rate [W] !TimeStep
+5436,BLOCK2:ELEVATOR IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Heating Rate [W] !TimeStep
+5437,BLOCK2:ELEVATOR IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Cooling Rate [W] !TimeStep
+5438,BLOCK2:ELEVATOR IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Cooling Rate [W] !TimeStep
+5439,BLOCK2:ELEVATOR IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Heating Rate [W] !TimeStep
+5440,BLOCK2:ELEVATOR IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Heating Rate [W] !TimeStep
+5441,BLOCK2:ELEVATOR IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Cooling Rate [W] !TimeStep
+5442,BLOCK2:ELEVATOR IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Cooling Rate [W] !TimeStep
+5445,BLOCK2:EQUIPTMENTRM. IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Heating Rate [W] !TimeStep
+5446,BLOCK2:EQUIPTMENTRM. IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Heating Rate [W] !TimeStep
+5447,BLOCK2:EQUIPTMENTRM. IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Cooling Rate [W] !TimeStep
+5448,BLOCK2:EQUIPTMENTRM. IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Cooling Rate [W] !TimeStep
+5449,BLOCK2:EQUIPTMENTRM. IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Heating Rate [W] !TimeStep
+5450,BLOCK2:EQUIPTMENTRM. IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Heating Rate [W] !TimeStep
+5451,BLOCK2:EQUIPTMENTRM. IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Cooling Rate [W] !TimeStep
+5452,BLOCK2:EQUIPTMENTRM. IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Cooling Rate [W] !TimeStep
+5455,BLOCK1:MAINAREA IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Heating Rate [W] !TimeStep
+5456,BLOCK1:MAINAREA IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Heating Rate [W] !TimeStep
+5457,BLOCK1:MAINAREA IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Cooling Rate [W] !TimeStep
+5458,BLOCK1:MAINAREA IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Cooling Rate [W] !TimeStep
+5459,BLOCK1:MAINAREA IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Heating Rate [W] !TimeStep
+5460,BLOCK1:MAINAREA IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Heating Rate [W] !TimeStep
+5461,BLOCK1:MAINAREA IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Cooling Rate [W] !TimeStep
+5462,BLOCK1:MAINAREA IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Cooling Rate [W] !TimeStep
+5486,1STFLOOR:STAIRS,Zone Mechanical Ventilation Air Changes per Hour [ach] !TimeStep
+5487,1STFLOOR:TRASHROOM,Zone Mechanical Ventilation Air Changes per Hour [ach] !TimeStep
+5488,1STFLOOR:STAFFRESTROOM,Zone Mechanical Ventilation Air Changes per Hour [ach] !TimeStep
+5489,1STFLOOR:OPENOFFICE,Zone Mechanical Ventilation Air Changes per Hour [ach] !TimeStep
+5490,1STFLOOR:OFFICE111,Zone Mechanical Ventilation Air Changes per Hour [ach] !TimeStep
+5491,1STFLOOR:TANK,Zone Mechanical Ventilation Air Changes per Hour [ach] !TimeStep
+5492,1STFLOOR:PUMPROOM,Zone Mechanical Ventilation Air Changes per Hour [ach] !TimeStep
+5493,1STFLOOR:LOBBY,Zone Mechanical Ventilation Air Changes per Hour [ach] !TimeStep
+5494,1STFLOOR:PREPROOM,Zone Mechanical Ventilation Air Changes per Hour [ach] !TimeStep
+5495,1STFLOOR:KITCHEN,Zone Mechanical Ventilation Air Changes per Hour [ach] !TimeStep
+5496,1STFLOOR:VESTIBULE,Zone Mechanical Ventilation Air Changes per Hour [ach] !TimeStep
+5497,1STFLOOR:ELEC.,Zone Mechanical Ventilation Air Changes per Hour [ach] !TimeStep
+5498,1STFLOOR:JANITOR,Zone Mechanical Ventilation Air Changes per Hour [ach] !TimeStep
+5499,1STFLOOR:MEN%SRESTROOM,Zone Mechanical Ventilation Air Changes per Hour [ach] !TimeStep
+5500,1STFLOOR:LOBBY1,Zone Mechanical Ventilation Air Changes per Hour [ach] !TimeStep
+5501,1STFLOOR:STORAGE,Zone Mechanical Ventilation Air Changes per Hour [ach] !TimeStep
+5502,1STFLOOR:ELEV.CLOSET,Zone Mechanical Ventilation Air Changes per Hour [ach] !TimeStep
+5503,1STFLOOR:ELEVATOR,Zone Mechanical Ventilation Air Changes per Hour [ach] !TimeStep
+5504,1STFLOOR:OFFICE,Zone Mechanical Ventilation Air Changes per Hour [ach] !TimeStep
+5505,1STFLOOR:WOMEN%SRESTROOM,Zone Mechanical Ventilation Air Changes per Hour [ach] !TimeStep
+5506,1STFLOOR:CLASSROOM,Zone Mechanical Ventilation Air Changes per Hour [ach] !TimeStep
+5507,BLOCK2:STORGE,Zone Mechanical Ventilation Air Changes per Hour [ach] !TimeStep
+5508,BLOCK2:MAINAREA,Zone Mechanical Ventilation Air Changes per Hour [ach] !TimeStep
+5509,BLOCK2:AQUARIUM,Zone Mechanical Ventilation Air Changes per Hour [ach] !TimeStep
+5510,BLOCK2:ELEVATOR1,Zone Mechanical Ventilation Air Changes per Hour [ach] !TimeStep
+5511,BLOCK2:VESTIBULE,Zone Mechanical Ventilation Air Changes per Hour [ach] !TimeStep
+5512,BLOCK2:MECH.,Zone Mechanical Ventilation Air Changes per Hour [ach] !TimeStep
+5513,BLOCK2:THEATER,Zone Mechanical Ventilation Air Changes per Hour [ach] !TimeStep
+5514,BLOCK2:CLOSET,Zone Mechanical Ventilation Air Changes per Hour [ach] !TimeStep
+5515,BLOCK2:ZONE8,Zone Mechanical Ventilation Air Changes per Hour [ach] !TimeStep
+5516,BLOCK2:ELEVATOR,Zone Mechanical Ventilation Air Changes per Hour [ach] !TimeStep
+5517,BLOCK2:EQUIPTMENTRM.,Zone Mechanical Ventilation Air Changes per Hour [ach] !TimeStep
+5518,BLOCK1:MAINAREA,Zone Mechanical Ventilation Air Changes per Hour [ach] !TimeStep
