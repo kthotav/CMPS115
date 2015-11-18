@@ -17,6 +17,11 @@ var xAxis = d3.svg.axis().scale(x).orient("bottom");
 
 var yAxis = d3.svg.axis().scale(y).orient("left");
 
+var line = d3.svg.line()
+  .interpolate("basis")
+  .x(function(d) { return x(d.TimeStep); })
+  .y(function(d) { return y(d.Temperature); });
+
 
 var svg = d3.select("body").append("svg")
    .attr("width", width + margin.left + margin.right)
@@ -24,23 +29,27 @@ var svg = d3.select("body").append("svg")
    .append("g")
    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-d3.csv("data.csv", function(error, data) {
+d3.csv("dataC.csv", function(error, data) {
 
-   data.forEach(function(d) {
+  dataset = data.filter(function (d){
+    return d.VarDate === "2015-05-05";
+  });
+  // for (var i = 0; i < data.length; i++) {
+  //   if(data[i].VarDate === "2015-05-05") {
+  //     dataset.push(data[i]);
+  //   }
+  // }
+
+   dataset.forEach(function(d) {
       d.TimeStep = +parseTime(d.TimeStep);
       d.Temperature = +d.Temperature;
       d.Vac = +d.Vac;
       d.Pac = +d.Pac;
-      // console.log(d.Temperature); DEBUG
+      d.VarDate = d.VarDate;
    });
 
-     x.domain(d3.extent(data, function(d) { return d.TimeStep; }));
-     y.domain(d3.extent(data, function(d) { return d.Temperature; }));
-
-     var line = d3.svg.line()
-       .interpolate("basis")
-       .x(function(d) { return x(d.TimeStep); })
-       .y(function(d) { return y(d.Temperature); });
+     x.domain(d3.extent(dataset, function(d) { return d.TimeStep; }));
+     y.domain(d3.extent(dataset, function(d) { return d.Temperature; }));
 
    svg.append("g")
       .attr("class", "x axis")
@@ -60,7 +69,7 @@ d3.csv("data.csv", function(error, data) {
       .text("Temperature");
 
   svg.append("path")
-      .datum(data)
+      .datum(dataset)
       .attr("class", "line")
       .attr("d", line);
 
@@ -68,19 +77,29 @@ d3.csv("data.csv", function(error, data) {
 
 
 function updateChart(ds) {
-  d3.csv("data.csv", function(error, data) {
+  d3.csv("dataC.csv", function(error, data) {
 
-     data.forEach(function(d) {
-        d.TimeStep = +parseTime(d.TimeStep);
-        d.Temperature = +d.Temperature;
-        d.Vac = +d.Vac;
-        d.Pac = +d.Pac;
-        console.log(d.Vac);
-     });
+  var date;
+  d3.select("#date").on("input", function() {
+    date = this.value;
+  });
+
+  dataset = data.filter(function (d){
+    return d.VarDate === "2015-05-05";
+  });
+
+   dataset.forEach(function(d) {
+      d.TimeStep = +parseTime(d.TimeStep);
+      d.Temperature = +d.Temperature;
+      d.Vac = +d.Vac;
+      d.Pac = +d.Pac;
+      d.VarDate = d.VarDate;
+   });
+
   var line;
   if (ds === "Temperature") {
-    x.domain(d3.extent(data, function(d) { return d.TimeStep; }));
-    y.domain(d3.extent(data, function(d) { return d.Temperature; }));
+    x.domain(d3.extent(dataset, function(d) { return d.TimeStep; }));
+    y.domain(d3.extent(dataset, function(d) { return d.Temperature; }));
 
     line = d3.svg.line()
         .interpolate("basis")
@@ -88,8 +107,8 @@ function updateChart(ds) {
         .y(function(d) { return y(d.Temperature); });
   }
   else if (ds === "Pac") {
-    x.domain(d3.extent(data, function(d) { return d.TimeStep; }));
-    y.domain(d3.extent(data, function(d) { return d.Pac; }));
+    x.domain(d3.extent(dataset, function(d) { return d.TimeStep; }));
+    y.domain(d3.extent(dataset, function(d) { return d.Pac; }));
 
     line = d3.svg.line()
         .interpolate("basis")
@@ -97,8 +116,8 @@ function updateChart(ds) {
         .y(function(d) { return y(d.Pac); });
   }
   else {
-    x.domain(d3.extent(data, function(d) { return d.TimeStep; }));
-    y.domain(d3.extent(data, function(d) { return d.Vac; }));
+    x.domain(d3.extent(dataset, function(d) { return d.TimeStep; }));
+    y.domain(d3.extent(dataset, function(d) { return d.Vac; }));
 
     line = d3.svg.line()
         .interpolate("basis")
@@ -117,7 +136,6 @@ function updateChart(ds) {
      svg.select(".y.axis") // change the y axis
          .duration(750)
          .call(yAxis);
-
       svg.select(".tmp-text")
         .duration(750)
         .text(ds);
