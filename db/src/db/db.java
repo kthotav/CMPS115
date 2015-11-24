@@ -128,49 +128,29 @@ public class db {
 		
 		//create a file and write data for date, time, and one of the columns.
 		for(int i = 0; i < column.length; i++ ){
-			//select database based on roomNum
-			ResultSet bmsResults = bmsStmt.executeQuery("select * from bmsr" + roomNum);
-			
-			//filename is based off of room number and column name.
-			BufferedWriter out = new BufferedWriter (new FileWriter("BMS" + roomNum + column[i] + ".csv"));
-			
-			//write first row with names of columns
-			out.write("TimeStamp" 
-					+ "," + "Date" 
-					+ "," + column[i]
-					+ "\n");
-			
-			//write data from database of timestamo, date, and the designated column
-			while(bmsResults.next()){
-				out.write(bmsResults.getString("TimeStamp")
-						+ "," + bmsResults.getString("Date")
-						+ "," + bmsResults.getString(column[i])
+				//select database based on roomNum
+				ResultSet bmsResults = bmsStmt.executeQuery("select * from bmsr" + roomNum);
+				
+				//filename is based off of room number and column name.
+				BufferedWriter out = new BufferedWriter (new FileWriter("BMS" + roomNum + column[i] + ".csv"));
+				
+				//write first row with names of columns
+				out.write("TimeStamp" 
+						+ "," + "Date" 
+						+ "," + column[i]
 						+ "\n");
+				
+				//write data from database of timestamo, date, and the designated column
+				while(bmsResults.next()){
+					out.write(bmsResults.getString("TimeStamp")
+							+ "," + bmsResults.getString("Date")
+							+ "," + bmsResults.getString(column[i])
+							+ "\n");
+				}
+				
+				out.flush();
+				out.close();
 			}
-			
-			out.flush();
-			out.close();
-		}
-
-		//write the column names
-//		out.write("TimeStamp" 
-//				+ "," + "Date" 
-//				+ "," + "Temperature" 
-//				+ "," + "Relative-Humidity"
-//				+ "," + "CO_2"
-//				+ "," + "Sensible-Heat"
-//				+ "\n");
-		//process the data from database in BMS
-//		while(pvResults.next()){
-//			out.write(pvResults.getString("TimeStamp") 
-//						+ "," + pvResults.getString("Date") 
-//						+ "," + pvResults.getString("Temperature") 
-//						+ "," + pvResults.getString("Relative-Humidity")
-//						+ "," + pvResults.getString("CO_2")
-//						+ "," + pvResults.getString("Sensible-Heat")
-//						+ "\n");
-//						
-//		}
 		}catch(Exception x){
 			x.printStackTrace();
 		}
