@@ -32,6 +32,10 @@ public class db {
 			printFromDB_PV(out , myConn);
 			printFromDB_BMS(myConn, 1);
 			printFromDB_BMS(myConn, 2);
+			
+			printFromDB_BMS_Combined(myConn, 1);
+			printFromDB_BMS_Combined(myConn, 2);
+			
 			System.out.println("printtobms");
 			
 			//make and SQL query.
@@ -118,6 +122,51 @@ public class db {
 			x.printStackTrace();
 		}
 	}
+	
+	static void printFromDB_BMS_Combined(Connection myConn, int roomNum){
+		
+		try{
+			Statement pvStmt = myConn.createStatement();
+			ResultSet pvResults = null;
+			BufferedWriter out = new BufferedWriter (new FileWriter("BMS" + roomNum + "ALL.csv"));
+			//pick query based on room number
+			switch (roomNum){
+			case 1: 
+				pvResults = pvStmt.executeQuery("select * from bmsr1");
+				break;
+			
+			case 2: 
+				pvResults = pvStmt.executeQuery("select * from bmsr2");
+				break;
+			}
+
+			//write the column names
+			out.write("TimeStamp" 
+					+ "," + "Date" 
+					+ "," + "Temperature" 
+					+ "," + "Relative-Humidity"
+					+ "," + "CO_2"
+					+ "," + "Sensible-Heat"
+					+ "\n");
+			//process the data from database in BMS
+			while(pvResults.next()){
+				out.write(pvResults.getString("TimeStamp") 
+							+ "," + pvResults.getString("Date") 
+							+ "," + pvResults.getString("Temperature") 
+							+ "," + pvResults.getString("Relative-Humidity")
+							+ "," + pvResults.getString("CO_2")
+							+ "," + pvResults.getString("Sensible-Heat")
+							+ "\n");
+				out.flush();
+				out.close();
+							
+			}
+			}catch(Exception x){
+				x.printStackTrace();
+			}
+	}
+	
+	
 	 //used to print all data from the BMS table into a file specified by the program
 	static void printFromDB_BMS(Connection myConn, int roomNum){
 		try{
@@ -131,7 +180,7 @@ public class db {
 				//select database based on roomNum
 				ResultSet bmsResults = bmsStmt.executeQuery("select * from bmsr" + roomNum);
 				
-				//filename is based off of room number and column name.
+				//filen vbxcame is based off of room number and column name.
 				BufferedWriter out = new BufferedWriter (new FileWriter("BMS" + roomNum + column[i] + ".csv"));
 				
 				//write first row with names of columns
@@ -154,6 +203,7 @@ public class db {
 		}catch(Exception x){
 			x.printStackTrace();
 		}
-		
 	}
+	
+	
 }
