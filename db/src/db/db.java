@@ -16,8 +16,6 @@ public class db {
 		 * so that the data can then be visualized.
 		 */
 		BufferedWriter out = new BufferedWriter (new FileWriter("fromdb_" +"dick.csv"));
-		BufferedWriter outBMS1 = new BufferedWriter (new FileWriter("cleanBMS1.csv"));
-		BufferedWriter outBMS2 = new BufferedWriter (new FileWriter("cleanBMS2.csv"));
 		// variables that are used by jdbc to connect to our database;
 		String url = "jdbc:mysql://localhost/homedb" ;
 		String username = "root";
@@ -32,8 +30,8 @@ public class db {
 			
 			//testing the print from PV function
 			printFromDB_PV(out , myConn);
-			printFromDB_BMS(outBMS1, myConn, 1);
-			printFromDB_BMS(outBMS2, myConn, 2);
+			printFromDB_BMS(myConn, 1);
+			printFromDB_BMS(myConn, 2);
 			System.out.println("printtobms");
 			
 			//make and SQL query.
@@ -75,10 +73,6 @@ public class db {
 		
 		}
 		in.close();
-		outBMS1.flush();
-		outBMS1.close();
-		outBMS2.flush();
-		outBMS2.close();
 		out.flush();
 		out.close();
 
@@ -125,41 +119,58 @@ public class db {
 		}
 	}
 	 //used to print all data from the BMS table into a file specified by the program
-	static void printFromDB_BMS(BufferedWriter out, Connection myConn, int roomNum){
+	static void printFromDB_BMS(Connection myConn, int roomNum){
 		try{
-		Statement pvStmt = myConn.createStatement();
-		ResultSet pvResults = null;
+		Statement bmsStmt = myConn.createStatement();
+
+		//create an array that represents each column in the database
+		String[] column = {"Temperature", "Relative-Humidity", "CO_2", "Sensible-Heat"};
 		
-		//pick query based on room number
-		switch (roomNum){
-		case 1: 
-			pvResults = pvStmt.executeQuery("select * from bmsr1");
-			break;
-		
-		case 2: 
-			pvResults = pvStmt.executeQuery("select * from bmsr2");
-			break;
+		//create a file and write data for date, time, and one of the columns.
+		for(int i = 0; i < column.length; i++ ){
+			//select database based on roomNum
+			ResultSet bmsResults = bmsStmt.executeQuery("select * from bmsr" + roomNum);
+			
+			//filename is based off of room number and column name.
+			BufferedWriter out = new BufferedWriter (new FileWriter("BMS" + roomNum + column[i] + ".csv"));
+			
+			//write first row with names of columns
+			out.write("TimeStamp" 
+					+ "," + "Date" 
+					+ "," + column[i]
+					+ "\n");
+			
+			//write data from database of timestamo, date, and the designated column
+			while(bmsResults.next()){
+				out.write(bmsResults.getString("TimeStamp")
+						+ "," + bmsResults.getString("Date")
+						+ "," + bmsResults.getString(column[i])
+						+ "\n");
+			}
+			
+			out.flush();
+			out.close();
 		}
 
 		//write the column names
-		out.write("TimeStamp" 
-				+ "," + "Date" 
-				+ "," + "Temperature" 
-				+ "," + "Relative-Humidity"
-				+ "," + "CO_2"
-				+ "," + "Sensible-Heat"
-				+ "\n");
+//		out.write("TimeStamp" 
+//				+ "," + "Date" 
+//				+ "," + "Temperature" 
+//				+ "," + "Relative-Humidity"
+//				+ "," + "CO_2"
+//				+ "," + "Sensible-Heat"
+//				+ "\n");
 		//process the data from database in BMS
-		while(pvResults.next()){
-			out.write(pvResults.getString("TimeStamp") 
-						+ "," + pvResults.getString("Date") 
-						+ "," + pvResults.getString("Temperature") 
-						+ "," + pvResults.getString("Relative-Humidity")
-						+ "," + pvResults.getString("CO_2")
-						+ "," + pvResults.getString("Sensible-Heat")
-						+ "\n");
-						
-		}
+//		while(pvResults.next()){
+//			out.write(pvResults.getString("TimeStamp") 
+//						+ "," + pvResults.getString("Date") 
+//						+ "," + pvResults.getString("Temperature") 
+//						+ "," + pvResults.getString("Relative-Humidity")
+//						+ "," + pvResults.getString("CO_2")
+//						+ "," + pvResults.getString("Sensible-Heat")
+//						+ "\n");
+//						
+//		}
 		}catch(Exception x){
 			x.printStackTrace();
 		}
