@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+   <meta charset='utf-8'>
+   <title>BMI DASHBOARD</title>
+   <head>
+      <link rel='stylesheet' type='text/css' href='style.css'>
+      <link rel='stylesheet' type='text/css' href='materialize/css/materialize.min.css'>
+      <script type='text/javascript' src='jquery.min.js'></script>
+   </head>
+   <body>
+      <!-- Load d3.js -->
+      <script type='text/javascript' src='d3/d3.min.js'></script>
+      <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+      <h3><a href="index.html">PV</a></h3>
+      <!-- Load 'dashboard' -->
+      <script type='text/javascript' src='graphBMS.js'></script>
+      <script type='text/javascript' src='materialize/js/materialize.min.js'></script>
+         <h5>BMS 1</h5>
+         <a class="col s4 waves-effect waves-light btn center" onclick="temperatureB1()">Temperature</a>
+         <a class="col s4 waves-effect waves-light btn center" onclick="relhumB1()">Relative Humidity</a>
+         <a class="col s4 waves-effect waves-light btn center" onclick="cotwoB1()">CO 2</a>
+         <a class="col s4 waves-effect waves-light btn center" onclick="senheatB1()">Sensible Heat</a>
+
+   </br>
+   </br>
+         <h5>BMS 2</h5>
+         <a class="col s4 waves-effect waves-light btn" onclick="temperatureB2()">Temperature</a>
+         <a class="col s4 waves-effect waves-light btn" onclick="relhumB2()">Relative Humidity</a>
+         <a class="col s4 waves-effect waves-light btn" onclick="cotwoB2()">CO 2</a>
+         <a class="col s4 waves-effect waves-light btn" onclick="senheatB2()">Sensible Heat</a>
+
+
+   </body>
+</html>
+<script>
+$(document).ready(function() {
+   $('select').material_select();
+ });
+</script>

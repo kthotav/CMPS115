@@ -10,21 +10,18 @@
       <!-- Load d3.js -->
       <script type='text/javascript' src='d3/d3.min.js'></script>
       <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+      <h3><a href="bms.html">BMS</a></h3>
       <!-- Load 'dashboard' -->
       <script type='text/javascript' src='graph.js'></script>
       <script type='text/javascript' src='materialize/js/materialize.min.js'></script>
-      <!-- Dropdown Trigger -->
-      <a class='dropdown-button btn' href='#' data-activates='dropdown1'>Drop Me!</a>
-
-      <!-- Dropdown Structure -->
-      <ul id='dropdown1' class='dropdown-content'>
-      <li><a href="#!">one</a></li>
-      <li><a href="#!">two</a></li>
-      <li class="divider"></li>
-      <li><a href="#!">three</a></li>
-      </ul>
+      <h5>Solar Panels</h5>
       <a class="col s4 waves-effect waves-light btn" onclick="temperature()">Temperature</a>
       <a class="col s4 waves-effect waves-light btn" onclick="pac()">Pac</a>
       <a class="col s4 waves-effect waves-light btn" onclick="vac()">Vac</a>
    </body>
 </html>
+<script>
+$(document).ready(function() {
+   $('select').material_select();
+ });
+</script>
