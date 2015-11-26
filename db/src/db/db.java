@@ -32,7 +32,7 @@ public class db {
 			printFromDB_PV(out , myConn);
 			printFromDB_BMS(myConn, 1);
 			printFromDB_BMS(myConn, 2);
-			
+			  
 			printFromDB_BMS_Combined(myConn, 1);
 			printFromDB_BMS_Combined(myConn, 2);
 			
@@ -128,7 +128,17 @@ public class db {
 		try{
 			Statement pvStmt = myConn.createStatement();
 			ResultSet pvResults = null;
-			BufferedWriter out = new BufferedWriter (new FileWriter("BMS" + roomNum + "ALL.csv"));
+			
+			BufferedWriter out = null;
+			switch (roomNum){
+			case 1:
+				out = new BufferedWriter (new FileWriter("BMSOne.csv"));
+				break;
+			case 2:
+				out = new BufferedWriter (new FileWriter("BMSTwo.csv"));
+				break;
+			}
+
 			//pick query based on room number
 			switch (roomNum){
 			case 1: 
@@ -142,11 +152,11 @@ public class db {
 
 			//write the column names
 			out.write("TimeStamp" 
-					+ "," + "Date" 
+					+ "," + "VarDate" 
 					+ "," + "Temperature" 
-					+ "," + "Relative-Humidity"
-					+ "," + "CO_2"
-					+ "," + "Sensible-Heat"
+					+ "," + "RelativeHumidity"
+					+ "," + "COtwo"
+					+ "," + "SensibleHeat"
 					+ "\n");
 			//process the data from database in BMS
 			while(pvResults.next()){
@@ -174,19 +184,27 @@ public class db {
 
 		//create an array that represents each column in the database
 		String[] column = {"Temperature", "Relative-Humidity", "CO_2", "Sensible-Heat"};
-		
+		String[] columnName = {"Temperature", "RelativeHumidity", "COtwo", "SensibleHeat"};
 		//create a file and write data for date, time, and one of the columns.
 		for(int i = 0; i < column.length; i++ ){
 				//select database based on roomNum
 				ResultSet bmsResults = bmsStmt.executeQuery("select * from bmsr" + roomNum);
 				
 				//filen vbxcame is based off of room number and column name.
-				BufferedWriter out = new BufferedWriter (new FileWriter("BMS" + roomNum + column[i] + ".csv"));
+				BufferedWriter out = null;
+				switch (roomNum){
+				case 1:
+					out = new BufferedWriter (new FileWriter("BMSOne" + columnName[i] + ".csv"));
+					break;
+				case 2:
+					out = new BufferedWriter (new FileWriter("BMSTwo" + columnName[i] + ".csv"));
+					break;
+				}
 				
 				//write first row with names of columns
 				out.write("TimeStamp" 
 						+ "," + "Date" 
-						+ "," + column[i]
+						+ "," + columnName[i]
 						+ "\n");
 				
 				//write data from database of timestamo, date, and the designated column
