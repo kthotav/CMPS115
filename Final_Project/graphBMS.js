@@ -15,7 +15,7 @@ var yAxis = d3.svg.axis().scale(y).orient("left");
 
 var line = d3.svg.line()
   .interpolate("basis")
-  .x(function(d) { return x(d.TimeStep); })
+  .x(function(d) { return x(d.TimeStamp); })
   .y(function(d) { return y(d.Temperature); });
 
 
@@ -28,7 +28,7 @@ var svg = d3.select("body").append("svg")
 var dropDown = d3.select("#filter").append("select")
                   .attr("name", "date-list");
 
-d3.csv("dataC.csv", function(error, data) {
+d3.csv("BMSOne.csv", function(error, data) {
 
   dataset = data.filter(function (d){
     return d.VarDate === "2015-05-01";
@@ -36,10 +36,11 @@ d3.csv("dataC.csv", function(error, data) {
 
 
    dataset.forEach(function(d) {
-      d.TimeStep = +parseTime(d.TimeStep);
+      d.TimeStamp = +parseTime(d.TimeStamp);
       d.Temperature = +d.Temperature;
-      d.Vac = +d.Vac;
-      d.Pac = +d.Pac;
+      d.RelateiveHumidity = +d.RelateiveHumidity;
+      d.COtwo = +d.COtwo;
+      d.SensibleHeat = d.SensibleHeat;
       d.VarDate = d.VarDate;
    });
 
@@ -51,7 +52,7 @@ d3.csv("dataC.csv", function(error, data) {
    options.text(function (d) { return d; })
       .attr("value", function (d) { return d; });
 
-     x.domain(d3.extent(dataset, function(d) { return d.TimeStep; }));
+     x.domain(d3.extent(dataset, function(d) { return d.TimeStamp; }));
      y.domain(d3.extent(dataset, function(d) { return d.Temperature; }));
 
    svg.append("g")
@@ -80,7 +81,7 @@ d3.csv("dataC.csv", function(error, data) {
 
 
 function updateChart(ds) {
-  d3.csv("dataC.csv", function(error, data) {
+  d3.csv("BMSOne.csv", function(error, data) {
 
 
   dataset = data.filter(function (d){
@@ -88,40 +89,50 @@ function updateChart(ds) {
   });
 
    dataset.forEach(function(d) {
-      d.TimeStep = +parseTime(d.TimeStep);
+      d.TimeStamp = +parseTime(d.TimeStamp);
       d.Temperature = +d.Temperature;
-      d.Vac = +d.Vac;
-      d.Pac = +d.Pac;
+      d.RelateiveHumidity  = +d.RelateiveHumidity ;
+      d.COtwo = +d.COtwo;
+      d.SensibleHeat = d.SensibleHeat;
       d.VarDate = d.VarDate;
    });
 
   var line;
   if (ds === "Temperature") {
-    x.domain(d3.extent(dataset, function(d) { return d.TimeStep; }));
+    x.domain(d3.extent(dataset, function(d) { return d.TimeStamp; }));
     y.domain(d3.extent(dataset, function(d) { return d.Temperature; }));
 
     line = d3.svg.line()
         .interpolate("basis")
-        .x(function(d) { return x(d.TimeStep); })
+        .x(function(d) { return x(d.TimeStamp); })
         .y(function(d) { return y(d.Temperature); });
   }
-  else if (ds === "Pac") {
-    x.domain(d3.extent(dataset, function(d) { return d.TimeStep; }));
-    y.domain(d3.extent(dataset, function(d) { return d.Pac; }));
+  else if (ds === "COtwo") {
+    x.domain(d3.extent(dataset, function(d) { return d.TimeStamp; }));
+    y.domain(d3.extent(dataset, function(d) { return d.COtwo; }));
 
     line = d3.svg.line()
         .interpolate("basis")
-        .x(function(d) { return x(d.TimeStep); })
-        .y(function(d) { return y(d.Pac); });
+        .x(function(d) { return x(d.TimeStamp); })
+        .y(function(d) { return y(d.COtwo); });
+  }
+  else if (ds === "SensibleHeat") {
+    x.domain(d3.extent(dataset, function(d) { return d.TimeStamp; }));
+    y.domain(d3.extent(dataset, function(d) { return d.SensibleHeat; }));
+
+    line = d3.svg.line()
+        .interpolate("basis")
+        .x(function(d) { return x(d.TimeStamp); })
+        .y(function(d) { return y(d.COtwo); });
   }
   else {
-    x.domain(d3.extent(dataset, function(d) { return d.TimeStep; }));
-    y.domain(d3.extent(dataset, function(d) { return d.Vac; }));
+    x.domain(d3.extent(dataset, function(d) { return d.TimeStamp; }));
+    y.domain(d3.extent(dataset, function(d) { return d.RelateiveHumidity ; }));
 
     line = d3.svg.line()
         .interpolate("basis")
-        .x(function(d) { return x(d.TimeStep); })
-        .y(function(d) { return y(d.Vac); });
+        .x(function(d) { return x(d.TimeStamp); })
+        .y(function(d) { return y(d.RelateiveHumidity ); });
   }
 
 
@@ -141,14 +152,37 @@ function updateChart(ds) {
 });
 }
 
-function temperature() {
+function temperatureB1() {
   updateChart("Temperature");
 }
 
-function pac() {
-  updateChart("Pac");
+function cotwoB1() {
+  updateChart("COtwo");
 }
 
-function vac() {
-  updateChart("Vac");
+function relhumB1 () {
+  updateChart("RelateiveHumidity");
+}
+
+function senheatB1() {
+  updateChart("SensibleHeat");
+}
+
+
+
+function temperatureB2() {
+  updateChart("Temperature");
+}
+
+function cotwoB2() {
+  updateChart("COtwo");
+}
+
+function relhumB2 () {
+  updateChart("RelateiveHumidity");
+}
+
+
+function senheatB2() {
+  updateChart("SensibleHeat");
 }
