@@ -44,13 +44,7 @@ d3.csv("BMSOne.csv", function(error, data) {
       d.VarDate = d.VarDate;
    });
 
-   dataDates = ["2015-05-01", "2015-05-02", "2015-05-03", "2015-05-04", "2015-05-05" ];
-   var options = dropDown.selectAll("option")
-           .data(dataDates)
-         .enter()
-           .append("option");
-   options.text(function (d) { return d; })
-      .attr("value", function (d) { return d; });
+
 
      x.domain(d3.extent(dataset, function(d) { return d.TimeStamp; }));
      y.domain(d3.extent(dataset, function(d) { return d.Temperature; }));
