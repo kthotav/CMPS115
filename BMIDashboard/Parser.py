@@ -8,21 +8,6 @@ def openFile(filepath):
     data = f.read()
     return data
 
-# Cleans the specified file located at filepath. For ESO files.
-# data:         Each line of the file located at file path.
-# dname:        The entire directory path of the file, exluding the actual file name.
-# bname:        The basename of the directory path, which is the file name.
-# newbasepath:  The new basename that we will be putting the clean files into.
-# clean_file:   The file name of the clean file.
-def cleanESOFile(filepath):
-    data = openFile(filepath).splitlines()
-    dname = "CLEAN_ESO\\"
-    bname = os.path.basename(filepath)
-    newbasepath = bname[:len(bname)-4] + "_FULL.csv"
-    clean_file = open(dname + newbasepath, "w+") # w+ is write and read only
-    for d in data:
-        clean_file.write(d + "\n")
-
 # Cleans the specified file located at filepath. For PV files.
 # data:         Each line of the file located at file path.
 # keys:         The key attributes for the PV files.
@@ -53,7 +38,7 @@ def cleanPVFile(filepath):
 # key:          The key that for each line in the data dictionary/
 def parseESOKeys(filepath, tsc):
     data = openFile(filepath).splitlines()
-    dname = "CLEAN_ESO\\"
+    dname = "DATABASE\\"
     bname = os.path.basename(filepath)
     
     # Time Stamp File
@@ -88,7 +73,7 @@ def parseESOKeys(filepath, tsc):
 # Creates a data dictionary that maps each of the numerical keys to their string locations.
 def createDataDict(filepath):
     data = openFile(filepath).splitlines()
-    dname = "CLEAN_ESO\\"
+    dname = "DATABASE\\"
     bname = "Data_Dictionary.csv"
     dict_file = open(dname + bname, "w")
     x = 0
@@ -101,7 +86,7 @@ def createDataDict(filepath):
             dict_file.write(val)
         x += 1
     dict_file.close()
-    print("Dictionary has been created in directory CLEAN_ESO as 'Data_Dictionary.csv'\n")
+    print("Dictionary has been created in directory DATABASE as 'Data_Dictionary.csv'\n")
 
 # Runs the parsing functions above depending on what type of file it is (PV or ESO).
 def parse(tsc):
@@ -118,6 +103,5 @@ def parse(tsc):
     for filepath in glob.glob("RAW_ESO\*.eso"):
         print(filepath)
         if "CLEAN" not in filepath:
-            cleanESOFile(filepath)
             parseESOKeys(filepath, tsc)
     print("ESO Files Cleaned\n")
