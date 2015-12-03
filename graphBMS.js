@@ -31,7 +31,7 @@ var dropDown = d3.select("#filter").append("select")
 d3.csv("BMSOne.csv", function(error, data) {
 
   dataset = data.filter(function (d){
-    return d.VarDate === "2015-05-01";
+    return d.VarDate === "7-29-2015";
   });
 
 
@@ -85,7 +85,7 @@ function updateChart(ds) {
 
 
   dataset = data.filter(function (d){
-    return d.VarDate === "2015-05-01";
+    return d.VarDate === "7-29-2015";
   });
 
    dataset.forEach(function(d) {
