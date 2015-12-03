@@ -1,0 +1,1 @@
+java -jar Driver.jar finalclean_2015-05-01.csv finalclean_2015-05-02.csv finalclean_2015-05-03.csv finalclean_2015-05-04.csv finalclean_2015-05-05.csv 1950_MBNMS.csv 2902_MBNMS.csv 22_MBNMS.csv 1976_MBNMS.csv 3357_MBNMS.csv 35_MBNMS.csv
