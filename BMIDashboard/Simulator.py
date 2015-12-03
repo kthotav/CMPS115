@@ -23,10 +23,10 @@ def main():
 
    Parser.parse(tsc)
 
-   #subprocess.call(['java', '-jar', 'Blender.jar']) 
+   cmd = "cd DATABASE; ./bmi.sh"
+   p = subprocess.call(cmd, shell=True)
    
    numOfAcq += 1
-   
    linenr = tup[0]
    tsc = tup[1]
    
@@ -38,5 +38,5 @@ def main():
 numOfAcq = 0
 linenr = 0
 tsc = 0
-Parser.createDataDict("SENSOR\\MBNMS_Monday.eso")
+Parser.createDataDict("/Users/octavio/Desktop/CMPS115/BMIDashboard/SENSOR/MBNMS_Monday.eso")
 main()

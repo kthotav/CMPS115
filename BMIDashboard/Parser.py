@@ -19,7 +19,7 @@ def cleanPVFile(filepath):
     data = openFile(filepath).replace(";", ",").splitlines()
     keys = data[4]
     values = data[6:]
-    dname = "CLEAN_PV\\"
+    dname = "CLEAN_PV/"
     bname = os.path.basename(filepath)
     clean_file = open(dname + bname, "w+")
     clean_file.write(keys + "\n")
@@ -38,7 +38,7 @@ def cleanPVFile(filepath):
 # key:          The key that for each line in the data dictionary/
 def parseESOKeys(filepath, tsc):
     data = openFile(filepath).splitlines()
-    dname = "DATABASE\\"
+    dname = "DATABASE/"
     bname = os.path.basename(filepath)
     
     # Time Stamp File
@@ -73,7 +73,7 @@ def parseESOKeys(filepath, tsc):
 # Creates a data dictionary that maps each of the numerical keys to their string locations.
 def createDataDict(filepath):
     data = openFile(filepath).splitlines()
-    dname = "DATABASE\\"
+    dname = "DATABASE/"
     bname = "Data_Dictionary.csv"
     dict_file = open(dname + bname, "w")
     x = 0
@@ -100,7 +100,7 @@ def parse(tsc):
 
     # Iterates through all of the files in the RAW_ESO directory and calles cleanESOFile() and parseESOKeys().
     print("Cleaning Raw ESO Files")
-    for filepath in glob.glob("RAW_ESO\*.eso"):
+    for filepath in glob.glob("RAW_ESO/*.eso"):
         print(filepath)
         if "CLEAN" not in filepath:
             parseESOKeys(filepath, tsc)

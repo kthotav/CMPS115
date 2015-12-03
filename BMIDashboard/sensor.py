@@ -17,8 +17,8 @@ def mock(tsc, linenr):
     #                   directory "RAW_ESO" as the file also named "MBNMS.eso". The parser will never see the
     #                   other "MBNMS.eso file that the sensor is reading from. Do not mistake them from being 
     #                   the same file.
-    sensor_file = openFile("SENSOR\MBNMS_Monday.eso").splitlines()
-    raw_file = open("RAW_ESO\MBNMS.eso", "w+")
+    sensor_file = openFile("SENSOR/MBNMS_Monday.eso").splitlines()
+    raw_file = open("RAW_ESO/MBNMS.eso", "w+")
     
     # Starts at the current line number until the end of the sensor_file.
     print("Starting with line %d" % linenr)
