@@ -8,3 +8,7 @@ Octavio Rodriguez
 
 See both versions BMIDashboard_Final_Submission and BMIDashboard_Final_Submission2.
 Read documentation In Final Submission Deliverables 
+
+
+working prototype 
+http://kthotav.github.io/CMPS115/index.html 
